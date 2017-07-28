@@ -1,7 +1,11 @@
 #include <iostream>
 #include "HiPope.h"
+ using namespace std;
 
-void hi::SayHello()
+namespace hi
 {
-	std::cout << "Hi Pope." << endl;
+	void SayHello()
+	{
+		std::cout << "Hi Pope." << endl;
+	}
 }
