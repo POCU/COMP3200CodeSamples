@@ -1,7 +1,7 @@
 #pragma once
 
-namespace printall
+namespace samples
 {
-	// Print int, float, char, char array using variables and cout
+	// TODO: Print int, float, char, char array using variables and cout
 	void PrintEverything();
 }

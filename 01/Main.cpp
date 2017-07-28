@@ -2,6 +2,8 @@
 #include "HiPope.h"
 #include "PrintAll.h"
 
+using namespace samples;
+
 int main()
 {
 	// 1. Namespace Example
@@ -9,7 +11,7 @@ int main()
 	//hi::SayHello();
 
 	// 2. Print Everything
-	//printall::PrintEverything();
+	//PrintEverything();
 	
 	// 3. Put more example here...
 
