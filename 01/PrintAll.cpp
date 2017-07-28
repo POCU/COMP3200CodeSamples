@@ -14,5 +14,4 @@ void samples::PrintEverything()
 	cout << letter << endl;
 	cout << string << endl;
 
-	return 0;
 }
