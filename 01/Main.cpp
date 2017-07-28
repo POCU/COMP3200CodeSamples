@@ -1,5 +1,6 @@
 #include "HelloPope.h"
 #include "HiPope.h"
+#include "PrintAll.h"
 
 int main()
 {
@@ -7,7 +8,10 @@ int main()
 	//hello::SayHello();
 	//hi::SayHello();
 
-	// 2. Put more example here...
+	// 2. Print Everything
+	//printall::PrintEverything();
+	
+	// 3. Put more example here...
 
 	return 0;
 }
