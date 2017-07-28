@@ -2,7 +2,10 @@
 #include "HelloPope.h"
 using namespace std;
 
-void hello::SayHello()
+namespace hello
 {
-	cout << "Hello Pope." << endl;
+	void SayHello()
+	{
+		cout << "Hello Pope." << endl;
+	}	
 }
