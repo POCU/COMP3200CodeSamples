@@ -13,5 +13,4 @@ void samples::PrintEverything()
 	cout << decimal << endl;
 	cout << letter << endl;
 	cout << string << endl;
-
 }
