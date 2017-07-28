@@ -6,6 +6,6 @@ namespace hi
 {
 	void SayHello()
 	{
-		std::cout << "Hi Pope." << endl;
+		cout << "Hi Pope." << endl;
 	}
 }
