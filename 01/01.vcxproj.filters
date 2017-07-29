@@ -2,11 +2,69 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="HelloPope.cpp" />
-    <ClCompile Include="HiPope.cpp" />
+    <ClCompile Include="HelloPope.cpp">
+      <Filter>1. Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="HiPope.cpp">
+      <Filter>1. Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintAll.cpp">
+      <Filter>2. Print Everything</Filter>
+    </ClCompile>
+    <ClCompile Include="AddIntegers.cpp">
+      <Filter>4. Summing Integers</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintRecipe.cpp">
+      <Filter>3. Manipulator</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintReverseOrder.cpp">
+      <Filter>5. Discarding &amp; Interactive Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.cpp">
+      <Filter>6. Reference</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HelloPope.h" />
-    <ClInclude Include="HiPope.h" />
+    <ClInclude Include="HelloPope.h">
+      <Filter>1. Namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="HiPope.h">
+      <Filter>1. Namespace</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintAll.h">
+      <Filter>2. Print Everything</Filter>
+    </ClInclude>
+    <ClInclude Include="AddIntegers.h">
+      <Filter>4. Summing Integers</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintRecipe.h">
+      <Filter>3. Manipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintReverseOrder.h">
+      <Filter>5. Discarding &amp; Interactive Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
+      <Filter>6. Reference</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Namespace">
+      <UniqueIdentifier>{c8b29393-0148-42a0-ad25-5a8d8a5b8905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Print Everything">
+      <UniqueIdentifier>{e987f10b-6191-419c-a86c-3e99808a8a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Summing Integers">
+      <UniqueIdentifier>{45ea9b02-6975-4b4f-af43-d4d0b1f9fa28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Manipulator">
+      <UniqueIdentifier>{89618905-e065-4f6a-8e3d-40ce0a201d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Discarding &amp; Interactive Input">
+      <UniqueIdentifier>{0f92a396-aa4b-4c72-9cac-1789dad8a05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Reference">
+      <UniqueIdentifier>{72941ab2-ffbb-4704-b849-50a0aa636bd8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
