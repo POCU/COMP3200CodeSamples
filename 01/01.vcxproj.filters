@@ -14,14 +14,14 @@
     <ClCompile Include="AddIntegers.cpp">
       <Filter>4. Summing Integers</Filter>
     </ClCompile>
-    <ClCompile Include="PrintRecipe.cpp">
+    <ClCompile Include="PrintMenu.cpp">
       <Filter>3. Manipulator</Filter>
-    </ClCompile>
-    <ClCompile Include="PrintReverseOrder.cpp">
-      <Filter>5. Discarding &amp; Interactive Input</Filter>
     </ClCompile>
     <ClCompile Include="Swap.cpp">
       <Filter>6. Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseInputString.cpp">
+      <Filter>5. Discarding &amp; Interactive Input</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,14 +37,14 @@
     <ClInclude Include="AddIntegers.h">
       <Filter>4. Summing Integers</Filter>
     </ClInclude>
-    <ClInclude Include="PrintRecipe.h">
+    <ClInclude Include="PrintMenu.h">
       <Filter>3. Manipulator</Filter>
-    </ClInclude>
-    <ClInclude Include="PrintReverseOrder.h">
-      <Filter>5. Discarding &amp; Interactive Input</Filter>
     </ClInclude>
     <ClInclude Include="Swap.h">
       <Filter>6. Reference</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseInputString.h">
+      <Filter>5. Discarding &amp; Interactive Input</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

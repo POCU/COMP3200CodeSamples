@@ -2,5 +2,5 @@
 
 namespace hi
 {
-	void SayHello();
+	void SayHelloExample();
 }

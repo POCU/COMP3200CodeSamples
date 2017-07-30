@@ -1,10 +1,11 @@
-#include <iostream>
 #include "HiPope.h"
- using namespace std;
+#include <iostream>
+
+using namespace std;
 
 namespace hi
 {
-	void SayHello()
+	void SayHelloExample()
 	{
 		cout << "Hi Pope." << endl;
 	}

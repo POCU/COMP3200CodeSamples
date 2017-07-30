@@ -1,22 +1,32 @@
-#include <iostream>
 #include "AddIntegers.h"
+#include <iostream>
+
 using namespace std;
 
 namespace samples
 {
-	void AddIntegers()
+	void AddIntegersExample()
 	{
 		int number;
-		int result = 0;
+		int sum = 0;
 
-		while (cin >> number)
+		while (true)
 		{
-			if (cin.fail())
+			cin >> number;
+			if (cin.eof())
 			{
 				break;
 			}
-			result += number;
+
+			if (cin.fail())
+			{
+				cin.clear();
+				cin.ignore();
+				continue;
+			}
+			sum += number;
 		}
-		cout << result << endl;
+
+		cout << "the sum is " << sum << endl;
 	}
 }

@@ -1,10 +1,11 @@
 #include <iostream>
 #include "PrintAll.h"
+
 using namespace std;
 
 namespace samples
 {
-	void PrintEverything()
+	void PrintEverythingExample()
 	{
 		int integer = 10;
 		float decimal = 1.5f;
@@ -13,7 +14,7 @@ namespace samples
 
 		cout << integer << endl;
 		cout << decimal << endl;
-		cout << letter << endl;
-		cout << string << endl;
+		cout << letter << endl
+			<< string << endl;
 	}
 }

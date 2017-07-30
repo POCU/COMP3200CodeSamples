@@ -2,32 +2,34 @@
 #include "HelloPope.h"
 #include "HiPope.h"
 #include "PrintAll.h"
-#include "PrintRecipe.h"
-#include "PrintReverseOrder.h"
+#include "PrintMenu.h"
+#include "ReverseInputString.h"
 #include "Swap.h"
 
 using namespace samples;
 
 int main()
 {
+	// INSTRUCTIONS: uncomment one of function calls below each time to run the example
+
 	// 1. Namespace Example
-	//hello::SayHello();
-	//hi::SayHello();
+	//hello::SayHelloExample();
+	//hi::SayHelloExample();
 
 	// 2. Print Everything
-	//PrintEverything();
+	//PrintEverythingExample();
 	
 	// 3. Manipulators
-	//PrintRecipe();
+	//PrintMenuExample();
 
 	// 4. Summing Integers
-	//AddIntegers();
+	//AddIntegersExample();
 
 	// 5. Discarding & Interactive Input
-	//PrintReversOrder();
+	//ReverseInputStringExample()
 
 	// 6. Reference
-	//CallReferenceExample();
+	//SwapExample();
 
 	//Put more example here...
 
