@@ -2,5 +2,5 @@
 
 namespace samples
 {
-	void ReverseInputString();
+	void ReverseInputStringExample();
 }

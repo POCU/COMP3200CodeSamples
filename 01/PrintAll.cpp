@@ -5,7 +5,7 @@ using namespace std;
 
 namespace samples
 {
-	void PrintEverything()
+	void PrintEverythingExample()
 	{
 		int integer = 10;
 		float decimal = 1.5f;

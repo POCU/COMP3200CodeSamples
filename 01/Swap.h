@@ -2,6 +2,6 @@
 
 namespace samples
 {
-	void CallReferenceExample();
-	void SwapMain(int& number1, int& number2);
+	void SwapExample();
+	void Swap(int& number1, int& number2);
 }

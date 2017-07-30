@@ -5,7 +5,7 @@ using namespace std;
 
 namespace samples
 {
-	void ReverseInputString()
+	void ReverseInputStringExample()
 	{
 		const int LINE_SIZE = 512;
 		char line[LINE_SIZE];

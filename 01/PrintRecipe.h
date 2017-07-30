@@ -2,5 +2,5 @@
 
 namespace samples
 {
-	void PrintRecipe();
+	void PrintRecipeExample();
 }

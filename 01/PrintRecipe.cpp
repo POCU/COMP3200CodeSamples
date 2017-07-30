@@ -6,15 +6,15 @@ using namespace std;
 
 namespace samples
 {
-	void PrintRecipe()
+	void PrintRecipeExample()
 	{
-		float breakfastPrice = 15.104f;
 		float icedcoffeePrice = 1.25f;
 		float lattePrice = 4.75f;
+		float breakfastPrice = 15.104f;
 
-		cout << "**" << setw(16) << setfill('=') << "**" << setw(8) << setfill('=') << "**" << setfill(' ') << endl;
+		cout << "--------------------------" << endl;
 		cout << setw(6) << "Name" << setw(17) << "Price" << endl;
-		cout << "**" << setw(16) << setfill('=') << "**" << setw(8) << setfill('=') << "**" << setfill(' ') << endl;
+		cout << "--------------------------" << endl;
 
 		cout << setw(13) << "Iced coffee" << setw(6) << "$" << "0" << icedcoffeePrice << endl;
 		cout << setw(7) << "Latte" << setw(12) << "$" << "0" << lattePrice << endl;

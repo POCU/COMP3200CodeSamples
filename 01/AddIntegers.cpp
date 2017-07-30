@@ -5,7 +5,7 @@ using namespace std;
 
 namespace samples
 {
-	void AddIntegers()
+	void AddIntegersExample()
 	{
 		int number;
 		int sum = 0;
@@ -17,7 +17,8 @@ namespace samples
 			{
 				break;
 			}
-			else if (cin.fail())
+
+			 if (cin.fail())
 			{
 				cin.clear();
 				cin.ignore();

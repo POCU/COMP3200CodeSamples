@@ -2,5 +2,5 @@
 
 namespace hello
 {
-	void SayHello();
+	void SayHelloExample();
 }

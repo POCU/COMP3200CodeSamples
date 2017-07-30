@@ -5,15 +5,17 @@ using namespace std;
 
 namespace samples
 {
-	void CallReferenceExample()
+	void SwapExample()
 	{
 		int number1 = 1;
 		int number2 = 2;
 
-		SwapMain(number1, number2);
+		cout << "Before swap: " << number1 << ", " << number2 << endl;
+		Swap(number1, number2);
+		cout << "After swap: " << number1 << ", " << number2 << endl;
 	}
 
-	void SwapMain(int& number1, int& number2)
+	void Swap(int& number1, int& number2)
 	{
 		int temp = number1;
 		number1 = number2;
