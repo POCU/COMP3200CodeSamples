@@ -19,6 +19,6 @@ namespace samples
 		cout << setw(10) << "Coffee" << setw(6) << "$" << "0" << coffeePrice << endl;
 		cout << setw(10) << "Scones" << setw(6) << "$" << "0" << sconesPrice << endl;
 		cout << setw(10) << "Burger" << setw(6) << "$" << setprecision(4) << showpoint
-																													<< burgerPrice << endl;
+									burgerPrice << endl;
 	}
 }
