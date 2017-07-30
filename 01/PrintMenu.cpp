@@ -1,12 +1,12 @@
 #include <iomanip>
 #include <iostream>
-#include "PrintRecipe.h"
+#include "PrintMenu.h"
 
 using namespace std;
 
 namespace samples
 {
-	void PrintRecipeExample()
+	void PrintMenuExample()
 	{
 		float coffeePrice = 1.25f;
 		float sconesPrice = 4.75f;

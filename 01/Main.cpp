@@ -2,7 +2,7 @@
 #include "HelloPope.h"
 #include "HiPope.h"
 #include "PrintAll.h"
-#include "PrintRecipe.h"
+#include "PrintMenu.h"
 #include "ReverseInputString.h"
 #include "Swap.h"
 
@@ -20,7 +20,7 @@ int main()
 	//PrintEverythingExample();
 	
 	// 3. Manipulators
-	//PrintRecipeExample();
+	//PrintMenuExample();
 
 	// 4. Summing Integers
 	//AddIntegersExample();

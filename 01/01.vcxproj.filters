@@ -14,7 +14,7 @@
     <ClCompile Include="AddIntegers.cpp">
       <Filter>4. Summing Integers</Filter>
     </ClCompile>
-    <ClCompile Include="PrintRecipe.cpp">
+    <ClCompile Include="PrintMenu.cpp">
       <Filter>3. Manipulator</Filter>
     </ClCompile>
     <ClCompile Include="Swap.cpp">
@@ -37,7 +37,7 @@
     <ClInclude Include="AddIntegers.h">
       <Filter>4. Summing Integers</Filter>
     </ClInclude>
-    <ClInclude Include="PrintRecipe.h">
+    <ClInclude Include="PrintMenu.h">
       <Filter>3. Manipulator</Filter>
     </ClInclude>
     <ClInclude Include="Swap.h">
