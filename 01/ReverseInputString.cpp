@@ -1,5 +1,5 @@
+#include "ReverseInputString.h"
 #include <iostream>
-#include "PrintReverseOrder.h"
 
 using namespace std;
 
@@ -16,7 +16,7 @@ namespace samples
 			return;
 		}
 
-		for (int i = strlen(line) - 1; i >= 0; --i)
+		for (size_t i = strlen(line) - 1; i >= 0; --i)
 		{
 			cout << line[i];
 		}

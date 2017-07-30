@@ -3,7 +3,7 @@
 #include "HiPope.h"
 #include "PrintAll.h"
 #include "PrintRecipe.h"
-#include "PrintReverseOrder.h"
+#include "ReverseInputString.h"
 #include "Swap.h"
 
 using namespace samples;
