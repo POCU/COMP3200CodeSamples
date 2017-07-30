@@ -1,6 +1,7 @@
-#include <iostream>
 #include "HiPope.h"
- using namespace std;
+#include <iostream>
+
+using namespace std;
 
 namespace hi
 {

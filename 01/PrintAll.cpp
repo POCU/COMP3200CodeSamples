@@ -1,5 +1,6 @@
 #include <iostream>
 #include "PrintAll.h"
+
 using namespace std;
 
 namespace samples
@@ -13,7 +14,6 @@ namespace samples
 
 		cout << integer << endl;
 		cout << decimal << endl;
-		cout << letter << endl;
-		cout << string << endl;
+		cout << letter << endl << string << endl;
 	}
 }

@@ -1,23 +1,25 @@
 #include <iostream>
 #include "PrintReverseOrder.h"
+
 using namespace std;
 
 namespace samples
 {
-	void PrintReverseOrder()
+	void ReverseInputString()
 	{
-		char line[512];
-		int index = 0;
+		const int LINE_SIZE = 512;
+		char line[LINE_SIZE];
 
-		cin.getline(line, 512);
-		while (line[index] != cin.eof())
+		cin.getline(line, LINE_SIZE);
+		if (cin.fail())
 		{
-			index++;
+			return;
 		}
-		
-		for (index -= 1; index >= 0; index--)
+
+		for (int i = strlen(line) - 1; i >= 0; --i)
 		{
-			cout << line[index] << " ";
+			cout << line[i];
 		}
+		cout << endl;
 	}
 }
