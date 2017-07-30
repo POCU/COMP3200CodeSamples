@@ -10,6 +10,8 @@ using namespace samples;
 
 int main()
 {
+	// INSTRUCTIONS: uncomment one of function calls below each time to run the example
+
 	// 1. Namespace Example
 	//hello::SayHelloExample();
 	//hi::SayHelloExample();
