@@ -18,7 +18,7 @@ namespace samples
 				break;
 			}
 
-			 if (cin.fail())
+			if (cin.fail())
 			{
 				cin.clear();
 				cin.ignore();
@@ -26,6 +26,7 @@ namespace samples
 			}
 			sum += number;
 		}
+
 		cout << "the sum is " << sum << endl;
 	}
 }
