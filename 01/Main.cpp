@@ -20,7 +20,7 @@ int main()
 	//PrintEverythingExample();
 	
 	// 3. Manipulators
-	//PrintMenuExample();
+	PrintMenuExample();
 
 	// 4. Summing Integers
 	//AddIntegersExample();

@@ -8,17 +8,25 @@ namespace samples
 {
 	void PrintMenuExample()
 	{
-		float coffeePrice = 1.25f;
-		float sconesPrice = 4.75f;
-		float burgerPrice = 12.104f;
+		const float coffeePrice = 1.25f;
+		const float lattePrice = 4.75f;
+		const float breakfastComboPrice = 12.104f;
 
-		cout << "--------------------------" << endl;
-		cout << setw(8) << "Name" << setw(12) << "Price" << endl;
-		cout << "--------------------------" << endl;
+		const size_t nameColumnLength = 20;
+		const size_t priceColumnLength = 10;
 
-		cout << setw(10) << "Coffee" << setw(6) << "$" << "0" << coffeePrice << endl;
-		cout << setw(10) << "Scones" << setw(6) << "$" << "0" << sconesPrice << endl;
-		cout << setw(10) << "Burger" << setw(6) << "$" << setprecision(4) << showpoint
-									burgerPrice << endl;
+		cout << left << fixed << showpoint << setprecision(2);
+
+		cout << setfill('-') << setw(nameColumnLength + priceColumnLength) << "" << endl << setfill(' ');
+		cout << setw(nameColumnLength) << "Name" 
+			<< setw(priceColumnLength) << "Price" << endl;
+		cout << setfill('-') << setw(nameColumnLength + priceColumnLength) << "" << endl << setfill(' ');
+
+		cout << setw(nameColumnLength) << "Coffee" 
+			<< "$" << coffeePrice << endl;
+		cout <<  setw(nameColumnLength) << "Latte"
+			<< "$" << lattePrice << endl;
+		cout << setw(nameColumnLength) << "Breakfast Combo" 
+			<< "$" << breakfastComboPrice << endl;
 	}
 }
