@@ -14,6 +14,7 @@ namespace samples
 
 		cout << integer << endl;
 		cout << decimal << endl;
-		cout << letter << endl << string << endl;
+		cout << letter << endl
+			<< string << endl;
 	}
 }
