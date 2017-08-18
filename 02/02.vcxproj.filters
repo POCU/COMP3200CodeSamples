@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Mirror String">
+      <UniqueIdentifier>{e5a4d6f6-a289-424b-bc24-23effd3db790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. File I/O">
+      <UniqueIdentifier>{5cf0e715-d007-470d-8666-10829ec42d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. StringStream">
+      <UniqueIdentifier>{521554f7-0750-4c1e-81d6-658b2442e6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Vector%28Header/Cpp%29">
+      <UniqueIdentifier>{2f84b65a-a0be-4972-ae5d-f8b03231007a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Vector with Member Functions">
+      <UniqueIdentifier>{c58f1218-17c0-4608-b236-1f8138423742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MirrorString.cpp">
+      <Filter>1. Mirror String</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintRecord.cpp">
+      <Filter>2. StringStream</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintRecords.cpp">
+      <Filter>3. File I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="VectorExample1.cpp">
+      <Filter>4. Vector%28Header/Cpp%29</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorExample2.cpp">
+      <Filter>5. Vector with Member Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector1.cpp">
+      <Filter>4. Vector%28Header/Cpp%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>5. Vector with Member Functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MirrorString.h">
+      <Filter>1. Mirror String</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintRecord.h">
+      <Filter>2. StringStream</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintRecords.h">
+      <Filter>3. File I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorExample1.h">
+      <Filter>4. Vector%28Header/Cpp%29</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorExample2.h">
+      <Filter>5. Vector with Member Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector1.h">
+      <Filter>4. Vector%28Header/Cpp%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>5. Vector with Member Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

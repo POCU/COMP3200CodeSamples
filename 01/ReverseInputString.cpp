@@ -16,7 +16,7 @@ namespace samples
 			return;
 		}
 
-		for (size_t i = strlen(line) - 1; i >= 0; --i)
+		for (int i = strlen(line) - 1; i >= 0; --i)
 		{
 			cout << line[i];
 		}

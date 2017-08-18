@@ -26,12 +26,10 @@ int main()
 	//AddIntegersExample();
 
 	// 5. Discarding & Interactive Input
-	//ReverseInputStringExample()
+	//ReverseInputStringExample();
 
 	// 6. Reference
 	//SwapExample();
-
-	//Put more example here...
 
 	return 0;
 }
