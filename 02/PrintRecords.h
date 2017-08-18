@@ -1,5 +1,6 @@
 #pragma once
 
+#include <iostream>
 #include <string>
 
 struct Record
@@ -12,9 +13,9 @@ struct Record
 
 namespace samples
 {
-	Record InputRecord();
-	
-	void ManageRecordsExample();
+	Record ReadRecord(std::istream& stream, bool bPrompt);
 
-	void WriteFileRecord(std::ofstream& outputStream, const Record& record);
+	void WriteFileRecord(std::fstream& outputStream, const Record& record);
+
+	void ManageRecordsExample();
 }

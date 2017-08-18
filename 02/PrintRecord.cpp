@@ -9,10 +9,14 @@ namespace samples
 {
 	void PrintRecordExample()
 	{
+		cout << "+------------------------------+" << endl;
+		cout << "|     Print Record Example     |" << endl;
+		cout << "+------------------------------+" << endl;
+
 		string firstName;
 		string lastName;
 		string studentID;
-		string score;
+		int score;
 
 		istringstream inputStream("Pope Kim A12345678 80");
 		ostringstream outputStream;

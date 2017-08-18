@@ -27,7 +27,7 @@ namespace samples
 			{
 				cout << "Invalid input" << endl;
 				cin.clear();
-				cin.ignore(512, '\n');
+				cin.ignore(LLONG_MAX, '\n');
 				continue;
 			}
 			sum += number;

@@ -9,21 +9,19 @@ using namespace samples;
 int main()
 {
 	// 1. Mirror String
-	//MirrorStringExample();
+	MirrorStringExample();
 
 	// 2. StringStream
-	//PrintRecordExample();
+	PrintRecordExample();
 
 	// 3. File I/O
-	//ManageRecordsExample();
+	ManageRecordsExample();
 
 	// 4. Vector(Header/Cpp)
-	//VectorExample1();
+	VectorExample1();
 
 	// 5. Vector with Member Functions
-	//VectorExample2();
-
-	//Put more example here...
+	VectorExample2();
 
 	return 0;
 }
