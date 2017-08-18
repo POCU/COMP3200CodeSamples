@@ -8,6 +8,10 @@ namespace samples
 {
 	void PrintMenuExample()
 	{
+		cout << "+------------------------------+" << endl;
+		cout << "|      Print Menu Example      |" << endl;
+		cout << "+------------------------------+" << endl;
+
 		const float coffeePrice = 1.25f;
 		const float lattePrice = 4.75f;
 		const float breakfastComboPrice = 12.104f;

@@ -1,11 +1,13 @@
 #pragma once
 
+#include <string>
+
 struct Record
 {
-	string FirstName;
-	string LastName;
-	string StudentID;
-	string Score;
+	std::string FirstName;
+	std::string LastName;
+	std::string StudentID;
+	std::string Score;
 };
 
 namespace samples

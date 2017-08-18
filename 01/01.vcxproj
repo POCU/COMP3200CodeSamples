@@ -143,7 +143,7 @@
     <ClCompile Include="HelloPope.cpp" />
     <ClCompile Include="HiPope.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="PrintAll.cpp" />
+    <ClCompile Include="PrintEverything.cpp" />
     <ClCompile Include="PrintMenu.cpp" />
     <ClCompile Include="ReverseInputString.cpp" />
     <ClCompile Include="Swap.cpp" />
@@ -152,7 +152,7 @@
     <ClInclude Include="AddIntegers.h" />
     <ClInclude Include="HelloPope.h" />
     <ClInclude Include="HiPope.h" />
-    <ClInclude Include="PrintAll.h" />
+    <ClInclude Include="PrintEverything.h" />
     <ClInclude Include="PrintMenu.h" />
     <ClInclude Include="ReverseInputString.h" />
     <ClInclude Include="Swap.h" />

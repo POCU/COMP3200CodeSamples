@@ -8,9 +8,6 @@
     <ClCompile Include="HiPope.cpp">
       <Filter>1. Namespace</Filter>
     </ClCompile>
-    <ClCompile Include="PrintAll.cpp">
-      <Filter>2. Print Everything</Filter>
-    </ClCompile>
     <ClCompile Include="AddIntegers.cpp">
       <Filter>4. Summing Integers</Filter>
     </ClCompile>
@@ -23,6 +20,9 @@
     <ClCompile Include="ReverseInputString.cpp">
       <Filter>5. Discarding &amp; Interactive Input</Filter>
     </ClCompile>
+    <ClCompile Include="PrintEverything.cpp">
+      <Filter>2. Print Everything</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloPope.h">
@@ -30,9 +30,6 @@
     </ClInclude>
     <ClInclude Include="HiPope.h">
       <Filter>1. Namespace</Filter>
-    </ClInclude>
-    <ClInclude Include="PrintAll.h">
-      <Filter>2. Print Everything</Filter>
     </ClInclude>
     <ClInclude Include="AddIntegers.h">
       <Filter>4. Summing Integers</Filter>
@@ -45,6 +42,9 @@
     </ClInclude>
     <ClInclude Include="ReverseInputString.h">
       <Filter>5. Discarding &amp; Interactive Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintEverything.h">
+      <Filter>2. Print Everything</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

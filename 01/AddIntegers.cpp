@@ -7,11 +7,16 @@ namespace samples
 {
 	void AddIntegersExample()
 	{
+		cout << "+------------------------------+" << endl;
+		cout << "|     Add Integers Example     |" << endl;
+		cout << "+------------------------------+" << endl;
+
 		int number;
 		int sum = 0;
 
 		while (true)
 		{
+			cout << "Please enter an integer or EOF: ";
 			cin >> number;
 			if (cin.eof())
 			{
@@ -20,13 +25,15 @@ namespace samples
 
 			if (cin.fail())
 			{
+				cout << "Invalid input" << endl;
 				cin.clear();
-				cin.ignore();
+				cin.ignore(512, '\n');
 				continue;
 			}
 			sum += number;
 		}
+		cin.clear();
 
-		cout << "the sum is " << sum << endl;
+		cout << "The sum is " << sum << endl;
 	}
 }

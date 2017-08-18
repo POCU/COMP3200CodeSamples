@@ -1,7 +1,6 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
-#include <string>
 #include "PrintRecords.h"
 
 using namespace std;
@@ -128,10 +127,10 @@ namespace samples
 		outputStream << left;
 
 		outputStream << record.FirstName;
-		outputStream << setw(NAME_LENGTH - record.LastName.length);
+		outputStream << setw(NAME_LENGTH - record.LastName.length());
 
 		outputStream << record.LastName;
-		outputStream << setw(NAME_LENGTH - record.LastName.length);
+		outputStream << setw(NAME_LENGTH - record.LastName.length());
 
 		outputStream << record.StudentID;
 		outputStream << setw(ID_LENGTH - record.StudentID.length());
