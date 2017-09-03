@@ -84,10 +84,10 @@ namespace samples
 			cout << "a: add" << endl
 				<< "d: display" << endl
 				<< "x: exit" << endl;
-			
+
 			cin >> command;
 			cin.ignore(LLONG_MAX, '\n');
-			
+
 			switch (command)
 			{
 			case 'a':
@@ -107,8 +107,10 @@ namespace samples
 				break;
 			}
 			default:
+			{
 				cout << "invalid input" << endl;
 				break;
+			}
 			}
 		}
 
