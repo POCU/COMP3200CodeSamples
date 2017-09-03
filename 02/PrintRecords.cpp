@@ -55,6 +55,18 @@ namespace samples
 		}
 	}
 
+	void WriteFileRecord(fstream& outputStream, const Record& record)
+	{
+		outputStream.seekp(0, ios_base::end);
+
+		outputStream << record.FirstName << " "
+			<< record.LastName << " "
+			<< record.StudentID << " "
+			<< record.Score << endl;
+
+		outputStream.flush();
+	}
+
 	void ManageRecordsExample()
 	{
 		cout << "+------------------------------+" << endl;
@@ -102,17 +114,5 @@ namespace samples
 		}
 
 		fileStream.close();
-	}
-
-	void WriteFileRecord(fstream& outputStream, const Record& record)
-	{
-		outputStream.seekp(0, ios_base::end);
-
-		outputStream << record.FirstName << " "
-			<< record.LastName << " "
-			<< record.StudentID << " "
-			<< record.Score << endl;
-
-		outputStream.flush();
 	}
 }
