@@ -17,5 +17,7 @@ namespace samples
 
 	void WriteFileRecord(std::fstream& outputStream, const Record& record);
 
+	void DisplayRecords(std::fstream& fileStream);
+
 	void ManageRecordsExample();
 }
