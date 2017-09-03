@@ -79,12 +79,12 @@ namespace samples
 		bool bExit = false;
 		while (!bExit)
 		{
-			char input;
+			char command;
 
 			cout << "a: add" << endl
 				<< "d: display" << endl
 				<< "x: exit" << endl;
-			cin >> input;
+			cin >> command;
 
 			cin.ignore(LLONG_MAX, '\n');
 			if (cin.fail())
@@ -93,7 +93,7 @@ namespace samples
 				continue;
 			}
 
-			switch (input)
+			switch (command)
 			{
 			case 'a':
 			{
