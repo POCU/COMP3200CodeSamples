@@ -79,20 +79,15 @@ namespace samples
 		bool bExit = false;
 		while (!bExit)
 		{
-			char command;
+			char command = ' ';
 
 			cout << "a: add" << endl
 				<< "d: display" << endl
 				<< "x: exit" << endl;
+			
 			cin >> command;
-
 			cin.ignore(LLONG_MAX, '\n');
-			if (cin.fail())
-			{
-				cout << "invalid input. " << endl;
-				continue;
-			}
-
+			
 			switch (command)
 			{
 			case 'a':
@@ -112,7 +107,7 @@ namespace samples
 				break;
 			}
 			default:
-				cout << "invalid input";
+				cout << "invalid input" << endl;
 				break;
 			}
 		}
