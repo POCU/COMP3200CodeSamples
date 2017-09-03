@@ -73,8 +73,6 @@ namespace samples
 		cout << "|    Manage Records Example    |" << endl;
 		cout << "+------------------------------+" << endl;
 
-		Record record;
-
 		fstream fileStream;
 		fileStream.open("studentRecords.dat", ios_base::in | ios_base::out);
 
@@ -98,15 +96,21 @@ namespace samples
 			switch (input)
 			{
 			case 'a':
-				record = ReadRecord(cin, true);
+			{
+				Record record = ReadRecord(cin, true);
 				WriteFileRecord(fileStream, record);
 				break;
+			}
 			case 'd':
+			{
 				DisplayRecords(fileStream);
 				break;
+			}
 			case 'x':
+			{
 				bExit = true;
 				break;
+			}
 			default:
 				cout << "invalid input";
 				break;
