@@ -22,12 +22,6 @@ int Vector2::GetY() const
 	return mY;
 }
 
-void Vector2::Add(const Vector2& vector)
-{
-	mX += vector.mX;
-	mY += vector.mY;
-}
-
 void Vector2::SetX(int x)
 {
 	mX = x;
@@ -36,4 +30,10 @@ void Vector2::SetX(int x)
 void Vector2::SetY(int y)
 {
 	mY = y;
+}
+
+void Vector2::Add(const Vector2& vector)
+{
+	mX += vector.mX;
+	mY += vector.mY;
 }
