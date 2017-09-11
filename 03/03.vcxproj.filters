@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CopyConstructorExample.cpp">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloadExample.cpp">
+      <Filter>2. Vector Class w Funciton Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloadExample.cpp">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritanceExample.cpp">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>2. Vector Class w Funciton Overloading</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Copy Constructor with char Array">
+      <UniqueIdentifier>{ada907ec-a4c7-4ed2-a86d-421f9debac8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Animal, Cat, Dog Classes">
+      <UniqueIdentifier>{f93cf2ed-2993-4f00-b055-bbb6737c7534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Vector Class w Funciton Overloading">
+      <UniqueIdentifier>{477e63be-5c91-43a3-94f0-f9200e4e047c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Vector Class w Operator Overloading">
+      <UniqueIdentifier>{82695e67-7097-4116-a681-db170fa55d49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CopyConstructorExample.h">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionOverloadExample.h">
+      <Filter>2. Vector Class w Funciton Overloading</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorOverloadExample.h">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClInclude>
+    <ClInclude Include="InheritanceExample.h">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>4. Animal, Cat, Dog Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>1. Copy Constructor with char Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>2. Vector Class w Funciton Overloading</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>3. Vector Class w Operator Overloading</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
