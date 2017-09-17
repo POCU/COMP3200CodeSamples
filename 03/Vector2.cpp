@@ -28,14 +28,14 @@ namespace samples
 		mY = y;
 	}
 
-	bool Vector2::operator==(const Vector2& rhs) const
-	{
-		return (mX == rhs.mX && mY == rhs.mY);
-	}
-
 	int Vector2::GetY() const
 	{
 		return mY;
+	}
+
+	bool Vector2::operator==(const Vector2& rhs) const
+	{
+		return (mX == rhs.mX && mY == rhs.mY);
 	}
 
 	Vector2 Vector2::operator*(const Vector2& rhs) const
