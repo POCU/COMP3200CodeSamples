@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02. Multiple Inheritance">
+      <UniqueIdentifier>{f979aa1a-1ef1-4111-98d2-46bd08c5dad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Interface">
+      <UniqueIdentifier>{6f4d664b-a32a-4a26-a4a9-f6ec4f0b57b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Polymorphism">
+      <UniqueIdentifier>{61c142c1-c02a-48ed-af0d-3011c3b7086e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PolymorphismExample.cpp">
+      <Filter>01. Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiInheritanceExample.cpp">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceExample.cpp">
+      <Filter>03. Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Animal.cpp">
+      <Filter>01. Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>01. Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>01. Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Lion.cpp">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Liger.cpp">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>03. Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat1.cpp">
+      <Filter>03. Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PolymorphismExample.h">
+      <Filter>01. Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiInheritanceExample.h">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceExample.h">
+      <Filter>03. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>01. Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>01. Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>01. Polymorphism</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Lion.h">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Liger.h">
+      <Filter>02. Multiple Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyable.h">
+      <Filter>03. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IWalkable.h">
+      <Filter>03. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>03. Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat1.h">
+      <Filter>03. Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

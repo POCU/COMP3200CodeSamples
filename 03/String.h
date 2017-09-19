@@ -13,6 +13,6 @@ namespace samples
 
 	private:
 		char* mString;
-		int mSize;
+		size_t mSize;
 	};
 }
