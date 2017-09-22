@@ -7,7 +7,7 @@ namespace samples
 {
 	void PolymorphismExample()
 	{
-		Cat* cat = new Cat(3);
+		Animal* cat = new Cat(3);
 		Animal* dog = new Dog(5);
 
 		cat->Move();
