@@ -11,8 +11,8 @@ namespace samples
 	{
 		Liger liger(5);
 
-		liger.ShowOffBeautifulHair();	// from lion
-		liger.PretendToBeZebra();		// from tiger
+		liger.ShowOffBeautifulHair();
+		liger.PretendToBeZebra();
 
 		cout << "tiger age: " << liger.Tiger::GetAge() << endl;
 		cout << "lion age: " << liger.Lion::GetAge() << endl;

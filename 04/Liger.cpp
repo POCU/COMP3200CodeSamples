@@ -5,7 +5,7 @@ namespace samples
 {
 	Liger::Liger(int age)
 		: Lion(age)
-		, Tiger(age + 1)
+		, Tiger(2 * age)
 	{
 	}
 }
