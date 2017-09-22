@@ -10,8 +10,8 @@ namespace samples
 	{
 	}
 
-	void Tiger::PretendIAmAZibra() const
+	void Tiger::PretendToBeZebra() const
 	{
-		cout << "I Has Zibra Stripes" << endl;
+		cout << "I Has Zebra Stripes" << endl;
 	}
 }

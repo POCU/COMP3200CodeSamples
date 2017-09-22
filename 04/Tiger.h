@@ -9,6 +9,6 @@ namespace samples
 	public:
 		Tiger::Tiger(int age);
 
-		void PretendIAmAZibra() const;
+		void PretendToBeZebra() const;
 	};
 }

@@ -16,7 +16,7 @@ namespace samples
 
 		cout << "string to mirror: " << line << endl;
 
-		for (int i = line.size() - 1; i >= 0; --i)
+		for (int i = (int)line.size() - 1; i >= 0; --i)
 		{
 			line += line[i];
 		}

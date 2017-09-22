@@ -12,7 +12,7 @@ namespace samples
 		Liger liger(5);
 
 		liger.ShowOffBeautifulHair();	// from lion
-		liger.PretendIAmAZibra();		// from tiger
+		liger.PretendToBeZebra();		// from tiger
 
 		cout << "tiger age: " << liger.Tiger::GetAge() << endl;
 		cout << "lion age: " << liger.Lion::GetAge() << endl;
