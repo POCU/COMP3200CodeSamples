@@ -4,7 +4,7 @@
 
 namespace samples
 {
-	class Tiger : public samples::Animal
+	class Tiger : public Animal
 	{
 	public:
 		Tiger::Tiger(int age);
