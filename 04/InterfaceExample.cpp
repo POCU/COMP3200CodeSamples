@@ -12,6 +12,7 @@ namespace samples
 		bat.Fly();
 		bat.Walk();
 
+		// cat.Fly();
 		cat.Walk();
 	}
 }
