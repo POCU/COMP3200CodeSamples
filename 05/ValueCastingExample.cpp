@@ -12,7 +12,7 @@ namespace samples
 		const int intNumber = 10;
 
 		const float floatNumber = static_cast<float>(intNumber);
-		const int shortNumber = static_cast<short>(intNumber);
+		const short shortNumber = static_cast<short>(intNumber);
 
 		cout << showbase << hex << uppercase;
 		cout << "int: " << intNumber
