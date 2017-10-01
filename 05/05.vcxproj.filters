@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="2. Static_Cast with pointers">
+      <UniqueIdentifier>{657df201-6e8f-4a3b-b82f-2b53dad32383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Static_Cast with values">
+      <UniqueIdentifier>{b19dd871-97a7-4b17-baac-878f4e09c735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Static member variable">
+      <UniqueIdentifier>{c85a384d-4a48-48f5-83fc-cb66984cdc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Inline function">
+      <UniqueIdentifier>{d27e9bb7-1a02-4dbf-9e44-9e81008fb958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6. Static member function">
+      <UniqueIdentifier>{bcab35f3-1902-4be1-9192-d05b1c593867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Saving Address of a Tiger object">
+      <UniqueIdentifier>{ad6b2ac9-edcf-48fd-b7da-97ef123a98ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ValueCastingExample.cpp">
+      <Filter>1. Static_Cast with values</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPointerCastingExample.cpp">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectAddressSavingExample.cpp">
+      <Filter>3. Saving Address of a Tiger object</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunctionExample.cpp">
+      <Filter>4. Inline function</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMemberVariableExample.cpp">
+      <Filter>5. Static member variable</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMemberFunctionExample.cpp">
+      <Filter>6. Static member function</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Dog.cpp">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiger.cpp">
+      <Filter>3. Saving Address of a Tiger object</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>4. Inline function</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>4. Inline function</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat2.cpp">
+      <Filter>5. Static member variable</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>6. Static member function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ValueCastingExample.h">
+      <Filter>1. Static_Cast with values</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPointerCastingExample.h">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectAddressSavingExample.h">
+      <Filter>3. Saving Address of a Tiger object</Filter>
+    </ClInclude>
+    <ClInclude Include="InlineFunctionExample.h">
+      <Filter>4. Inline function</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMemberVariableExample.h">
+      <Filter>5. Static member variable</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMemberFunctionExample.h">
+      <Filter>6. Static member function</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dog.h">
+      <Filter>2. Static_Cast with pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiger.h">
+      <Filter>3. Saving Address of a Tiger object</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>4. Inline function</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>4. Inline function</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat2.h">
+      <Filter>5. Static member variable</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>6. Static member function</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
