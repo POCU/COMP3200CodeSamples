@@ -3,6 +3,8 @@
 
 namespace samples
 {
+	char* Cat2::mAnimalType = "Cat";
+
 	Cat2::Cat2(int age, char* name)
 		: mAge(age)
 		, mName(name)
@@ -21,6 +23,4 @@ namespace samples
 	{
 		return mAnimalType;
 	}
-
-	char* Cat2::mAnimalType = "Cat";
 }

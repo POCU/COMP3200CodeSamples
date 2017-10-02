@@ -17,6 +17,7 @@ namespace samples
 		cout << "myCat2's type : " << myCat2->GetType() << endl;
 		cout << "myCat3's type : " << myCat3->GetType() << endl;
 		cout << "myCat4's type : " << myCat4->GetType() << endl;
+		cout << "global cat type :" << Cat2::GetType() << endl;
 
 		delete myCat1;
 		delete myCat2;
