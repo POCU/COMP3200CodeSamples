@@ -8,8 +8,8 @@ namespace samples
 	{
 	}
 
-	void Tiger::PretendIAmAZibra() const
+	void Tiger::PretendIAmAZebra() const
 	{
-		std::cout << "I Has Zibra Stripes" << std::endl;
+		std::cout << "I Has Zebra Stripes" << std::endl;
 	}
 }

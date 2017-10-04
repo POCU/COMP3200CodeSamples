@@ -15,7 +15,7 @@ namespace samples
 		cout << "read int address to pointer" << endl;
 
 		tiger = reinterpret_cast<Tiger*>(intAddress);
-		tiger->PretendIAmAZibra();
+		tiger->PretendIAmAZebra();
 
 		delete tiger;
 	}
