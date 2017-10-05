@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="VectorAddingElementsExample.cpp">
+      <Filter>1. Adding elements</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorSwappingElementsExample.cpp">
+      <Filter>2. Swapping elements</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorCalculatingSumExample.cpp">
+      <Filter>3. Calculating sum</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectVectorExample.cpp">
+      <Filter>4. Object vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>4. Object vector</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerVectorExample.cpp">
+      <Filter>5. Pointer vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Adding elements">
+      <UniqueIdentifier>{5d0c8812-e38a-4e38-91f1-0b543ea782b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Swapping elements">
+      <UniqueIdentifier>{a2e73944-2407-4cf1-a92d-1b516acdebcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Calculating sum">
+      <UniqueIdentifier>{a365519b-6bf6-4278-9ad8-a373d0fb4c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Object vector">
+      <UniqueIdentifier>{6b86ce6e-7638-428d-95d4-6a4f9011f5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Pointer vector">
+      <UniqueIdentifier>{7f882b1f-f279-43c4-bcc1-4fe4718dc9c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VectorAddingElementsExample.h">
+      <Filter>1. Adding elements</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorSwappingElementsExample.h">
+      <Filter>2. Swapping elements</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorCalculatingSumExample.h">
+      <Filter>3. Calculating sum</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectVectorExample.h">
+      <Filter>4. Object vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>4. Object vector</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerVectorExample.h">
+      <Filter>5. Pointer vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
