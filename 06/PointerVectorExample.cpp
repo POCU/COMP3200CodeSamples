@@ -25,29 +25,22 @@ namespace samples
 		scores.push_back(androidScore);
 
 		PrintVector(scores);
+
+		vector<Score*>::iterator iter = scores.begin();
+		while (iter != scores.end())
 		{
-			vector<Score*>::iterator iter = scores.begin();
-			while (iter != scores.end())
+			Score* score = *iter;
+			if (score->GetClassName() == "Java")
 			{
-				Score* score = *iter;
-				if (score->GetClassName() == "Java")
-				{
-					iter = scores.erase(iter);
-				}
-				else
-				{
-					iter++;
-				}
+				iter = scores.erase(iter);
+			}
+			else
+			{
+				iter++;
 			}
 		}
 
 		PrintVector(scores);
-
-		for (vector<Score*>::iterator iter = scores.begin(); iter != scores.end(); ++iter)
-		{
-			iter = scores.erase(iter);
-		}
-		scores.clear();
 
 		for (vector<Score*>::iterator iter = scores.begin(); iter != scores.end(); ++iter)
 		{
