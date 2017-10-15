@@ -3,19 +3,19 @@
 #include <string>
 #include "MapUserDefinedTypesExample2.h"
 #include "StudentInfo2.h"
-#include "StudentInfo2Comparator.h"
+#include "StudentInfo2Comparer.h"
 
 namespace samples
 {
 	void MapUserDefinedTypesExample2()
 	{
-		map<StudentInfo2, int, StudentInfo2Comparator> studentsScoreMap;
+		map<StudentInfo2, int, StudentInfo2Comparer> studentScores;
 
-		studentsScoreMap.insert(pair<StudentInfo2, int>(StudentInfo2("Lulu", "A01234567"), 10));
-		studentsScoreMap.insert(pair<StudentInfo2, int>(StudentInfo2("Poppy", "A12345678"), 70));
-		studentsScoreMap.insert(pair<StudentInfo2, int>(StudentInfo2("Lulu", "A01234567"), 50));
+		studentScores.insert(pair<StudentInfo2, int>(StudentInfo2("Lulu", "A01234567"), 10));
+		studentScores.insert(pair<StudentInfo2, int>(StudentInfo2("Poppy", "A12345678"), 70));
+		studentScores.insert(pair<StudentInfo2, int>(StudentInfo2("Lulu", "A01234567"), 50));
 
-		for (map<StudentInfo2, int>::iterator iter = studentsScoreMap.begin(); iter != studentsScoreMap.end(); ++iter)
+		for (map<StudentInfo2, int>::iterator iter = studentScores.begin(); iter != studentScores.end(); ++iter)
 		{
 			cout << iter->first.GetName() << "[" << iter->first.GetStudentID() << "]:  " << iter->second << endl;
 		}

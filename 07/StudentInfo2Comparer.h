@@ -4,8 +4,9 @@
 
 namespace samples
 {
-	struct StudentInfo2Comparator
+	class StudentInfo2Comparer
 	{
+	public:
 		bool operator()(const StudentInfo2& object1, const StudentInfo2& object2) const
 		{
 			if (object1.GetName() == object2.GetName())

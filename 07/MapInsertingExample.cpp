@@ -9,20 +9,20 @@ namespace samples
 {
 	void MapInsertingExample()
 	{
-		map<string, int> studentsScoreMap;
+		map<string, int> studentScores;
 
-		studentsScoreMap.insert(pair<string, int>("Lulu", 10));
-		studentsScoreMap.insert(pair<string, int>("Poppy", 50));
+		studentScores.insert(pair<string, int>("Lulu", 10));
+		studentScores.insert(pair<string, int>("Poppy", 50));
 
-		for (map<string, int>::iterator iter = studentsScoreMap.begin(); iter != studentsScoreMap.end(); ++iter)
+		for (map<string, int>::iterator iter = studentScores.begin(); iter != studentScores.end(); ++iter)
 		{
 			cout << iter->first << ", " << iter->second << endl;
 		}
 		cout << endl;
 
-		studentsScoreMap.insert(pair<string, int>("Lulu", 100));
+		studentScores.insert(pair<string, int>("Lulu", 100));
 
-		for (map<string, int>::iterator iter = studentsScoreMap.begin(); iter != studentsScoreMap.end(); ++iter)
+		for (map<string, int>::iterator iter = studentScores.begin(); iter != studentScores.end(); ++iter)
 		{
 			cout << iter->first << ", " << iter->second << endl;
 		}

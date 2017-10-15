@@ -154,7 +154,7 @@
     <ClInclude Include="MapUserDefinedTypesExample2.h" />
     <ClInclude Include="StudentInfo.h" />
     <ClInclude Include="StudentInfo2.h" />
-    <ClInclude Include="StudentInfo2Comparator.h" />
+    <ClInclude Include="StudentInfo2Comparer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

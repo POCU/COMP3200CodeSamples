@@ -10,13 +10,13 @@ namespace samples
 {
 	void MapUserDefinedTypesExample1()
 	{
-		map<StudentInfo, int> studentsScoreMap;
+		map<StudentInfo, int> studentScores;
 
-		studentsScoreMap.insert(pair<StudentInfo, int>(StudentInfo("Lulu", "A01234567"), 10));
-		studentsScoreMap.insert(pair<StudentInfo, int>(StudentInfo("Poppy", "A12345678"), 70));
-		studentsScoreMap.insert(pair<StudentInfo, int>(StudentInfo("Lulu", "A01234567"), 50));
+		studentScores.insert(pair<StudentInfo, int>(StudentInfo("Lulu", "A01234567"), 10));
+		studentScores.insert(pair<StudentInfo, int>(StudentInfo("Poppy", "A12345678"), 70));
+		studentScores.insert(pair<StudentInfo, int>(StudentInfo("Lulu", "A01234567"), 50));
 
-		for (map<StudentInfo, int>::iterator iter = studentsScoreMap.begin(); iter != studentsScoreMap.end(); ++iter)
+		for (map<StudentInfo, int>::iterator iter = studentScores.begin(); iter != studentScores.end(); ++iter)
 		{
 			cout << iter->first.GetName() << "[" << iter->first.GetStudentID() << "]:  " << iter->second << endl;
 		}

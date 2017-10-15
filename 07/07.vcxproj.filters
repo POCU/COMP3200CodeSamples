@@ -5,9 +5,6 @@
     <ClCompile Include="MapInsertingExample.cpp">
       <Filter>1. Inserting</Filter>
     </ClCompile>
-    <ClCompile Include="MapInsertingWithOperatorExample.cpp">
-      <Filter>2. Inserting with operator</Filter>
-    </ClCompile>
     <ClCompile Include="MapUserDefinedTypesExample1.cpp">
       <Filter>3. User-defined types as key 1</Filter>
     </ClCompile>
@@ -19,6 +16,9 @@
     </ClCompile>
     <ClCompile Include="StudentInfo2.cpp">
       <Filter>4. User-defined types as key 2</Filter>
+    </ClCompile>
+    <ClCompile Include="MapInsertingWithOperatorExample.cpp">
+      <Filter>2. Inserting with operator</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -54,7 +54,7 @@
     <ClInclude Include="StudentInfo2.h">
       <Filter>4. User-defined types as key 2</Filter>
     </ClInclude>
-    <ClInclude Include="StudentInfo2Comparator.h">
+    <ClInclude Include="StudentInfo2Comparer.h">
       <Filter>4. User-defined types as key 2</Filter>
     </ClInclude>
   </ItemGroup>
