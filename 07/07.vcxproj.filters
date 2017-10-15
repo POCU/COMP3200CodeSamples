@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapInsertingExample.cpp">
+      <Filter>1. Inserting</Filter>
+    </ClCompile>
+    <ClCompile Include="MapInsertingWithOperatorExample.cpp">
+      <Filter>2. Inserting with operator</Filter>
+    </ClCompile>
+    <ClCompile Include="MapUserDefinedTypesExample1.cpp">
+      <Filter>3. User-defined types as key 1</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentInfo.cpp">
+      <Filter>3. User-defined types as key 1</Filter>
+    </ClCompile>
+    <ClCompile Include="MapUserDefinedTypesExample2.cpp">
+      <Filter>4. User-defined types as key 2</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentInfo2.cpp">
+      <Filter>4. User-defined types as key 2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Inserting">
+      <UniqueIdentifier>{4c1620fe-ec05-419b-930a-24a28dcc5bcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Inserting with operator">
+      <UniqueIdentifier>{a39cd267-2c62-4b31-a900-45117176a23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. User-defined types as key 1">
+      <UniqueIdentifier>{c84ff7ca-b0b3-4a76-ab89-7b27555431df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. User-defined types as key 2">
+      <UniqueIdentifier>{b4f1c6a5-47fa-4111-986d-c07ec04f178a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MapInsertingExample.h">
+      <Filter>1. Inserting</Filter>
+    </ClInclude>
+    <ClInclude Include="MapInsertingWithOperatorExample.h">
+      <Filter>2. Inserting with operator</Filter>
+    </ClInclude>
+    <ClInclude Include="MapUserDefinedTypesExample1.h">
+      <Filter>3. User-defined types as key 1</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentInfo.h">
+      <Filter>3. User-defined types as key 1</Filter>
+    </ClInclude>
+    <ClInclude Include="MapUserDefinedTypesExample2.h">
+      <Filter>4. User-defined types as key 2</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentInfo2.h">
+      <Filter>4. User-defined types as key 2</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentInfo2Comparator.h">
+      <Filter>4. User-defined types as key 2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
