@@ -1,6 +1,7 @@
 #include <iostream>
 #include "FixedVector.h"
 #include "FixedVectorExample.h"
+#include "IntVector.h"
 
 using namespace std;
 
@@ -8,28 +9,30 @@ namespace samples
 {
 	void FixedVectorExample()
 	{
-		FixedVector<int, 3> fixedVector1;
-		FixedVector<float, 5> fixedVector2;
-		FixedVector<char*, 4> fixedVector3;
-
-		char* str[4] = { "Element 1", "Element 2", "Element 3", "Element 4"};
-
-		fixedVector1.Add(10);
-
-		fixedVector2.Add(15.5f);
-		fixedVector2.Add(20.5f);
-		fixedVector2.Add(25.5f);
-
-		fixedVector3.Add(str[0]);
-		fixedVector3.Add(str[1]);
-		fixedVector3.Add(str[2]);
-		fixedVector3.Add(str[3]);
+		FixedVector<int, 3> scores;
+		scores.Add(10);
+		scores.Add(50);
 		
-		cout << "fixedVector1 - <Size, Capacity>: " << "<" << fixedVector1.GetSize() 
-			<< ", " << fixedVector1.GetCapacity()  << ">"<< endl;
-		cout << "fixedVector2 - <Size, Capacity>: " << "<" << fixedVector2.GetSize()
-			<< ", " << fixedVector2.GetCapacity() << ">" << endl;
-		cout << "fixedVector3 - <Size, Capacity>: " << "<" << fixedVector3.GetSize()
-			<< ", " << fixedVector3.GetCapacity() << ">" << endl;
+		cout << "scores - <Size, Capacity>: " << "<" << scores.GetSize()
+			<< ", " << scores.GetCapacity() << ">" << endl;
+
+		FixedVector<IntVector, 5> intVectors;
+		intVectors.Add(IntVector(2, 5));
+		intVectors.Add(IntVector(4, 30));
+		intVectors.Add(IntVector(22, 3));
+
+		cout << "intVectors - <Size, Capacity>: " << "<" << intVectors.GetSize()
+			<< ", " << intVectors.GetCapacity() << ">" << endl;
+
+
+		FixedVector<IntVector*, 4> intVectors2;
+
+		IntVector* intVector = new IntVector(3, 2);
+		intVectors2.Add(intVector);
+		
+		cout << "intVectors2 - <Size, Capacity>: " << "<" << intVectors2.GetSize()
+			<< ", " << intVectors2.GetCapacity() << ">" << endl;
+
+		delete intVector;
 	}
 }

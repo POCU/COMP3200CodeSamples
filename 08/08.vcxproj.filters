@@ -8,6 +8,9 @@
     <ClCompile Include="FixedVectorExample.cpp">
       <Filter>2. FixedVector</Filter>
     </ClCompile>
+    <ClCompile Include="IntVector.cpp">
+      <Filter>1. Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1. Array">
@@ -29,6 +32,9 @@
     </ClInclude>
     <ClInclude Include="FixedVectorExample.h">
       <Filter>2. FixedVector</Filter>
+    </ClInclude>
+    <ClInclude Include="IntVector.h">
+      <Filter>1. Array</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

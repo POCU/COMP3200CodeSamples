@@ -112,6 +112,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FixedVectorExample.cpp" />
+    <ClCompile Include="IntVector.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MyArrayExample.cpp" />
   </ItemGroup>
@@ -120,6 +121,7 @@
     <ClInclude Include="FixedVectorExample.h" />
     <ClInclude Include="MyArray.h" />
     <ClInclude Include="MyArrayExample.h" />
+    <ClInclude Include="IntVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

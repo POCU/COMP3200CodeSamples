@@ -8,7 +8,7 @@ namespace samples
 	public:
 		MyArray();
 
-		int Add(const T& data);
+		bool Add(const T& data);
 		size_t GetSize() const;
 
 	private:

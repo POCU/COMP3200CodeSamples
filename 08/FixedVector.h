@@ -8,7 +8,7 @@ namespace samples
 	public:
 		FixedVector();
 
-		int Add(const T& data);
+		bool Add(const T& data);
 		size_t GetSize() const;
 		size_t GetCapacity() const;
 
@@ -36,7 +36,7 @@ namespace samples
 	}
 
 	template<typename T, size_t N>
-	bool FixedVector<T>::Add(const T& data)
+	bool FixedVector<T, N>::Add(const T& data)
 	{
 		if (mSize >= N)
 		{
