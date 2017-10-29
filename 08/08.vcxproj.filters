@@ -2,6 +2,12 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyArrayExample.cpp">
+      <Filter>1. Array</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedVectorExample.cpp">
+      <Filter>2. FixedVector</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1. Array">
@@ -16,6 +22,12 @@
       <Filter>1. Array</Filter>
     </ClInclude>
     <ClInclude Include="FixedVector.h">
+      <Filter>2. FixedVector</Filter>
+    </ClInclude>
+    <ClInclude Include="MyArrayExample.h">
+      <Filter>1. Array</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedVectorExample.h">
       <Filter>2. FixedVector</Filter>
     </ClInclude>
   </ItemGroup>
