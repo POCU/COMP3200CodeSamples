@@ -15,5 +15,8 @@
     <ClInclude Include="MyArray.h">
       <Filter>1. Array</Filter>
     </ClInclude>
+    <ClInclude Include="FixedVector.h">
+      <Filter>2. FixedVector</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -2,8 +2,7 @@
 
 namespace samples
 {
-
-	template<class T>
+	template<typename T>
 	class MyArray
 	{
 	public:
@@ -19,19 +18,19 @@ namespace samples
 		T mArray[MAX];
 	};
 
-	template<class T>
+	template<typename T>
 	MyArray<T>::MyArray()
 		: mSize(0)
 	{
 	}
 
-	template<class T>
+	template<typename T>
 	size_t MyArray<T>::GetSize() const
 	{
 		return mSize;
 	}
 
-	template<class T>
+	template<typename T>
 	bool MyArray<T>::Add(const T& data)
 	{
 		if (mSize >= MAX)
