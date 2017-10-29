@@ -24,7 +24,6 @@ namespace samples
 		cout << "intVectors - <Size, Capacity>: " << "<" << intVectors.GetSize()
 			<< ", " << intVectors.GetCapacity() << ">" << endl;
 
-
 		FixedVector<IntVector*, 4> intVectors2;
 
 		IntVector* intVector = new IntVector(3, 2);
