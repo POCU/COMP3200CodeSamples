@@ -11,4 +11,9 @@
       <UniqueIdentifier>{1b348e40-9fb3-4d2a-90f9-142198b24b11}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyArray.h">
+      <Filter>1. Array</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
