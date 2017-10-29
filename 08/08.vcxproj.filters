@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Array">
+      <UniqueIdentifier>{c57abca2-49ca-47ac-92ae-9db6e57840fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. FixedVector">
+      <UniqueIdentifier>{1b348e40-9fb3-4d2a-90f9-142198b24b11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
