@@ -14,7 +14,7 @@ namespace samples
 		
 		int* ptr = nullptr;
 
-		ptr = Algorithm::Find(&arr[0], &arr[9], 67);
+		ptr = Algorithm::Find(arr, arr + ARRAY_SIZE, 67);
 		cout << *ptr;
 	}
 }
