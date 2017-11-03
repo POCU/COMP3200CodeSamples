@@ -19,7 +19,7 @@ namespace samples
 				++p;
 			}
 
-			return begin;
+			return p;
 		}
 	};
 };
