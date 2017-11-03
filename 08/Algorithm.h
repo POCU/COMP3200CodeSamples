@@ -6,18 +6,20 @@ namespace samples
 {
 	namespace Algorithm
 	{
-		template <typename Input, typename T>
-		Input* Find(Input* first, Input* last, const T& value)
+		template <typename ITER, typename T>
+		const ITER* Find(const ITER* begin, const ITER* end, const T& value)
 		{
-			while (first != last)
+			const ITER* p = begin;
+			while (p != end)
 			{
-				if (*first == value)
+				if (*p == value)
 				{
-					return first;
+					break;
 				}
-				++first;
+				++p;
 			}
-			return last;
+
+			return begin;
 		}
 	};
 };

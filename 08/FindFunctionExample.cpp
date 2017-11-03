@@ -12,9 +12,7 @@ namespace samples
 		const int ARRAY_SIZE = 10;
 		int arr[ARRAY_SIZE] = { 10,20,13,52,32,67,89,15,46,3 };
 		
-		int* ptr = nullptr;
-
-		ptr = Algorithm::Find(arr, arr + ARRAY_SIZE, 67);
+		const int* ptr = Algorithm::Find(arr, arr + ARRAY_SIZE, 67);
 		cout << *ptr;
 	}
 }
