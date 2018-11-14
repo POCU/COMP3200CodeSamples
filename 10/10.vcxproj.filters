@@ -19,6 +19,21 @@
       <Filter>1. Using auto Keyword</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="StaticAssertExample.cpp">
+      <Filter>2. Using static_assert Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="Pope.cpp">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="PopeClone.cpp">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDeleteFinalOverrideExample.cpp">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoKeywordExample.h">
@@ -26,6 +41,21 @@
     </ClInclude>
     <ClInclude Include="MyVector.h">
       <Filter>1. Using auto Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticAssertExample.h">
+      <Filter>2. Using static_assert Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="Pope.h">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="PopeClone.h">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDeleteFinalOverrideExample.h">
+      <Filter>3. Using default/delete and final/override Keyword</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

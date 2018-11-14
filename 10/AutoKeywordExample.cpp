@@ -25,7 +25,7 @@ namespace samples
 
 		char character = 'a';
 		char& characterRef = character;
-		auto characterAutoRef = characterRef;
+		auto characterAutoRef = characterRef; // Bad Practice!!
 
 		character = 'b';
 
@@ -40,7 +40,7 @@ namespace samples
 		cout << "anotherCharacterAutoRef: " << anotherCharacterAutoRef << endl;
 
 		const float someFloat = 1.0f;
-		auto& someFloatRef = someFloat;
+		auto& someFloatRef = someFloat; // Bad Practice!!
 
 		// Compile Error
 		// someFloatRef = 2.0f;
