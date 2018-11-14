@@ -1,17 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="1. Using auto Keyword">
+      <UniqueIdentifier>{fe9ceb71-5b97-4fe9-a5a4-c9e8b723d517}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="2. Using static_assert Keyword">
+      <UniqueIdentifier>{a6639657-d650-48a5-b49e-f922cb2e1967}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="3. Using default/delete and final/override Keyword">
+      <UniqueIdentifier>{f7ae00ed-0ace-4d90-ad02-01d1f6d21d6c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="4. Using enum class">
+      <UniqueIdentifier>{5889c689-92db-4cf2-975a-db7216bba99b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoKeywordExample.cpp">
+      <Filter>1. Using auto Keyword</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoKeywordExample.h">
+      <Filter>1. Using auto Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>1. Using auto Keyword</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
