@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyArrayExample.cpp">
+      <Filter>1. Array</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedVectorExample.cpp">
+      <Filter>2. FixedVector</Filter>
+    </ClCompile>
+    <ClCompile Include="IntVector.cpp">
+      <Filter>1. Array</Filter>
+    </ClCompile>
+    <ClCompile Include="CopyingVectorExample.cpp">
+      <Filter>4. Copying vector</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFunctionExample.cpp">
+      <Filter>5. Find function</Filter>
+    </ClCompile>
+    <ClCompile Include="MathExample.cpp">
+      <Filter>3. Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>4. Copying vector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Array">
+      <UniqueIdentifier>{c57abca2-49ca-47ac-92ae-9db6e57840fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. FixedVector">
+      <UniqueIdentifier>{1b348e40-9fb3-4d2a-90f9-142198b24b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Copying vector">
+      <UniqueIdentifier>{6c2f1aa6-d492-4a70-90ee-e057f5eb2d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5. Find function">
+      <UniqueIdentifier>{a47d2ac9-5d0f-4490-a670-83ffc9c06a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Math">
+      <UniqueIdentifier>{22f455ef-3d44-4cda-b131-8ac084227666}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyArray.h">
+      <Filter>1. Array</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedVector.h">
+      <Filter>2. FixedVector</Filter>
+    </ClInclude>
+    <ClInclude Include="MyArrayExample.h">
+      <Filter>1. Array</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedVectorExample.h">
+      <Filter>2. FixedVector</Filter>
+    </ClInclude>
+    <ClInclude Include="IntVector.h">
+      <Filter>1. Array</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>3. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CopyingVectorExample.h">
+      <Filter>4. Copying vector</Filter>
+    </ClInclude>
+    <ClInclude Include="FindFunctionExample.h">
+      <Filter>5. Find function</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>5. Find function</Filter>
+    </ClInclude>
+    <ClInclude Include="MathExample.h">
+      <Filter>3. Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>4. Copying vector</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
