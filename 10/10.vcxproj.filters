@@ -72,5 +72,11 @@
     <ClInclude Include="Ball.h">
       <Filter>4. Set color with eColor</Filter>
     </ClInclude>
+    <ClInclude Include="IntVector4D.h">
+      <Filter>2. Using static_assert Keyword</Filter>
+    </ClInclude>
+    <ClInclude Include="IntVector3D.h">
+      <Filter>2. Using static_assert Keyword</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

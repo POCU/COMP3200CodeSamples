@@ -1,5 +1,7 @@
-#include "StaticAssertExample.h"
 #include <iostream>
+#include "StaticAssertExample.h"
+#include "IntVector3D.h"
+#include "IntVector4D.h"
 
 using namespace std;
 
@@ -7,22 +9,20 @@ namespace samples
 {
 	void StaticAssertExample()
 	{
-		const int MAGIC_INT = 5;
-
-		int n = 1;
-
-		// Compile error
-		// static_assert(n == MAGIC_INT, "n is not equal to MAGIC_INT");
-
-		const int n2 = 2;
+		IntVector3D vector1;
+		vector1.X = 9;
+		vector1.Y = 10;
+		vector1.Z = 3;
 
 		// Compile error
-		//static_assert(n2 == MAGIC_INT, "n2 is not equal to MAGIC_INT");
+		// static_assert(sizeof(vector1) == 16, "Vector4D is not 16 bytes!");
 
-		const int n3 = 5;
+		IntVector4D vector2;
+		vector2.X = 2;
+		vector2.Y = 3;
+		vector2.Z = 1;
+		vector2.T = 0;
 
-		static_assert(n3 == MAGIC_INT, "n2 is not equal to MAGIC_INT");
-
-		cout << "Magic int is: " << n3 << endl;
+		static_assert(sizeof(vector2) == 16, "Vector4D is not 16 bytes!");
 	}
 }

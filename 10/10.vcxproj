@@ -132,10 +132,12 @@
     <ClInclude Include="EColor.h" />
     <ClInclude Include="EnumExample.h" />
     <ClInclude Include="Human.h" />
+    <ClInclude Include="IntVector3D.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="Pope.h" />
     <ClInclude Include="PopeClone.h" />
     <ClInclude Include="StaticAssertExample.h" />
+    <ClInclude Include="IntVector4D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

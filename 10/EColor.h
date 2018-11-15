@@ -2,7 +2,7 @@
 
 namespace samples
 {
-	enum eColor
+	enum class eColor
 	{
 		Red,
 		Green,

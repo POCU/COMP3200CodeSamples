@@ -1,7 +1,7 @@
-#include "AutoKeywordExample.h"
-#include "MyVector.h"
 #include <vector>
 #include <iostream>
+#include "AutoKeywordExample.h"
+#include "MyVector.h"
 
 using namespace std;
 
@@ -25,11 +25,11 @@ namespace samples
 
 		char character = 'a';
 		char& characterRef = character;
-		auto characterAutoRef = characterRef; // Bad Practice!!
+		auto characterAutoCopy = characterRef; // Bad Practice!!
 
 		character = 'b';
 
-		cout << "anotherCharacterRef: " << characterAutoRef << endl;
+		cout << "characterAutoCopy: " << characterAutoCopy << endl;
 
 		char anotherCharacter = 'c';
 		char& anotherCharacterRef = anotherCharacter;
@@ -64,5 +64,7 @@ namespace samples
 		auto* myVector = new MyVector<int>(10, 20);
 
 		cout << "mX: " << myVector->GetX() << ", mY: " << myVector->GetY() << endl;
+
+		delete myVector;
 	}
 }

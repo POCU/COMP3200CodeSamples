@@ -1,12 +1,12 @@
-#include "PopeClone.h"
 #include <iostream>
+#include "PopeClone.h"
 
 using namespace std;
 
 namespace samples
 {
 	//PopeClone::PopeClone()
-	//	:Pope("Pope")
+	//	: Pope("Pope")
 	//{
 	//}
 

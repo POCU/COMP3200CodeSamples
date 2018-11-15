@@ -1,5 +1,6 @@
 #pragma once
 
-namespace samples {
+namespace samples
+{
 	void AutoKeywordExample();
 }

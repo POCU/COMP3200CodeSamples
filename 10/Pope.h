@@ -10,7 +10,7 @@ namespace samples
 		Pope();
 		Pope(const Pope& otherPope) = delete;
 
-		virtual ~Pope() = default;
+		virtual ~Pope() override = default;
 
 		virtual void SayMyName() const override;
 
