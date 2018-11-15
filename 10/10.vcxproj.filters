@@ -10,7 +10,7 @@
     <Filter Include="3. Using default/delete and final/override Keyword">
       <UniqueIdentifier>{f7ae00ed-0ace-4d90-ad02-01d1f6d21d6c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="4. Using enum class">
+    <Filter Include="4. Set color with eColor">
       <UniqueIdentifier>{5889c689-92db-4cf2-975a-db7216bba99b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -35,10 +35,10 @@
       <Filter>3. Using default/delete and final/override Keyword</Filter>
     </ClCompile>
     <ClCompile Include="EnumExample.cpp">
-      <Filter>4. Using enum class</Filter>
+      <Filter>4. Set color with eColor</Filter>
     </ClCompile>
     <ClCompile Include="Ball.cpp">
-      <Filter>4. Using enum class</Filter>
+      <Filter>4. Set color with eColor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,13 +64,13 @@
       <Filter>3. Using default/delete and final/override Keyword</Filter>
     </ClInclude>
     <ClInclude Include="EnumExample.h">
-      <Filter>4. Using enum class</Filter>
+      <Filter>4. Set color with eColor</Filter>
     </ClInclude>
     <ClInclude Include="EColor.h">
-      <Filter>4. Using enum class</Filter>
+      <Filter>4. Set color with eColor</Filter>
     </ClInclude>
     <ClInclude Include="Ball.h">
-      <Filter>4. Using enum class</Filter>
+      <Filter>4. Set color with eColor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
