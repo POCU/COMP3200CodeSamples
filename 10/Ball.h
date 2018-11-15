@@ -8,6 +8,7 @@ namespace samples
 	{
 	public:
 		Ball(eColor color);
+		Ball() = delete;
 		~Ball() = default;
 
 		eColor GetColor() const;
