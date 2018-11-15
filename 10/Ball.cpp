@@ -14,6 +14,7 @@ namespace samples
 	{
 		return mColor;
 	}
+
 	void Ball::SayColor() const
 	{
 		switch (mColor)
