@@ -116,7 +116,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AutoKeywordExample.cpp" />
+    <ClCompile Include="Ball.cpp" />
     <ClCompile Include="DefaultDeleteFinalOverrideExample.cpp" />
+    <ClCompile Include="EnumExample.cpp" />
     <ClCompile Include="Human.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Pope.cpp" />
@@ -125,7 +127,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoKeywordExample.h" />
+    <ClInclude Include="Ball.h" />
     <ClInclude Include="DefaultDeleteFinalOverrideExample.h" />
+    <ClInclude Include="EColor.h" />
+    <ClInclude Include="EnumExample.h" />
     <ClInclude Include="Human.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="Pope.h" />

@@ -34,6 +34,10 @@
     <ClCompile Include="DefaultDeleteFinalOverrideExample.cpp">
       <Filter>3. Using default/delete and final/override Keyword</Filter>
     </ClCompile>
+    <ClCompile Include="EnumExample.cpp">
+      <Filter>4. Using enum class</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AutoKeywordExample.h">
@@ -57,5 +61,12 @@
     <ClInclude Include="DefaultDeleteFinalOverrideExample.h">
       <Filter>3. Using default/delete and final/override Keyword</Filter>
     </ClInclude>
+    <ClInclude Include="EnumExample.h">
+      <Filter>4. Using enum class</Filter>
+    </ClInclude>
+    <ClInclude Include="EColor.h">
+      <Filter>4. Using enum class</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h" />
   </ItemGroup>
 </Project>
