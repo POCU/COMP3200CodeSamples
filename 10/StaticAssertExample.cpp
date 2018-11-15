@@ -1,4 +1,3 @@
-#include <iostream>
 #include "StaticAssertExample.h"
 #include "IntVector3D.h"
 #include "IntVector4D.h"

@@ -10,7 +10,7 @@ namespace samples
 	public:
 		PopeClone();
 
-		virtual ~PopeClone() = default;
+		virtual ~PopeClone() override = default;
 
 		virtual void SayMyName() const override;
 	};*/
