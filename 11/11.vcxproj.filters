@@ -4,16 +4,40 @@
     <Filter Include="1. Speed test: ordered set vs unordered set">
       <UniqueIdentifier>{b514b535-a8c5-420e-8539-13a5b19be516}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2. Range based for-loop">
+      <UniqueIdentifier>{8fa29bf4-c6ee-4870-8a46-e0297e4b59db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Using unique pointers">
+      <UniqueIdentifier>{0270d4c6-b595-48f1-b521-ef637b2d86d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SpeedTestExample.cpp">
       <Filter>1. Speed test: ordered set vs unordered set</Filter>
     </ClCompile>
+    <ClCompile Include="RangeBasedForLoopExample.cpp">
+      <Filter>2. Range based for-loop</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector.cpp">
+      <Filter>3. Using unique pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="UsingUniquePointersExample.cpp">
+      <Filter>3. Using unique pointers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SpeedTestExample.h">
       <Filter>1. Speed test: ordered set vs unordered set</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeBasedForLoopExample.h">
+      <Filter>2. Range based for-loop</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>3. Using unique pointers</Filter>
+    </ClInclude>
+    <ClInclude Include="UsingUniquePointersExample.h">
+      <Filter>3. Using unique pointers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

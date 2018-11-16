@@ -115,10 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="UsingUniquePointersExample.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MyVector.cpp" />
+    <ClCompile Include="RangeBasedForLoopExample.cpp" />
     <ClCompile Include="SpeedTestExample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="UsingUniquePointersExample.h" />
+    <ClInclude Include="MyVector.h" />
+    <ClInclude Include="RangeBasedForLoopExample.h" />
     <ClInclude Include="SpeedTestExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
