@@ -14,14 +14,14 @@ namespace samples
 		vector1.Z = 3;
 
 		// Compile error
-		// static_assert(sizeof(vector1) == 16, "Vector4D is not 16 bytes!");
+		// static_assert(sizeof(vector1) == 16, "vector1 is not 16 bytes!");
 
 		IntVector4D vector2;
 		vector2.X = 2;
 		vector2.Y = 3;
 		vector2.Z = 1;
-		vector2.T = 0;
+		vector2.W = 0;
 
-		static_assert(sizeof(vector2) == 16, "Vector4D is not 16 bytes!");
+		static_assert(sizeof(vector2) == 16, "vector2 is not 16 bytes!");
 	}
 }
