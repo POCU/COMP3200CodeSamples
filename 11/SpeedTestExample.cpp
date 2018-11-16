@@ -10,6 +10,8 @@ namespace samples
 {
 	void SpeedTestExample()
 	{
+		// RUN THIS EXAMPLE IN RELEASE CONFIG
+
 		// initialize test
 		set<int> orderedSet;
 		unordered_set<int> unorderedSet;
@@ -32,24 +34,27 @@ namespace samples
 			unorderedSet.insert(i);
 		}
 
-		auto t1Start = chrono::high_resolution_clock::now();
+		auto start = chrono::high_resolution_clock::now();
 
 		orderedSet.insert(NUMBER_TO_INSERT);
 
-		auto t1End = chrono::high_resolution_clock::now();
+		auto end = chrono::high_resolution_clock::now();
 
-		auto elapsedNanoSeconds1 = t1End - t1Start;
+		auto elapsedNanoSeconds = end - start;
 
-		cout << "Inserting into orderedSet: " << elapsedNanoSeconds1.count() << " ns" << endl;
+		cout << "Inserting into orderedSet: " << elapsedNanoSeconds.count() << " ns" << endl;
 
-		auto t2Start = chrono::high_resolution_clock::now();
+		start = chrono::high_resolution_clock::now();
 
 		unorderedSet.insert(NUMBER_TO_INSERT);
 
-		auto t2End = chrono::high_resolution_clock::now();
+		end = chrono::high_resolution_clock::now();
 
-		auto elapsedNanoSeconds2 = t2End - t2Start;
+		elapsedNanoSeconds = end - start;
 
-		cout << "Inserting into unorderedSet: " << elapsedNanoSeconds2.count() << " ns" << endl;
+		cout << "Inserting into unorderedSet: " << elapsedNanoSeconds.count() << " ns" << endl;
+
+		// Uncomment this when you run it with Release configuration
+		// system("pause"); 
 	}
 }
