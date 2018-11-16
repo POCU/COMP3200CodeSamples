@@ -16,16 +16,16 @@ namespace samples
 		set<int> orderedSet;
 		unordered_set<int> unorderedSet;
 
-		const int NUMBER_TO_INSERT = 1023;
+		const int NUMBER_TO_INSERT_LATER = 1023;
 		const int MAX_NUMBER_IN_SET = 100000;
 
 		unorderedSet.reserve(MAX_NUMBER_IN_SET);
 
-		static_assert(MAX_NUMBER_IN_SET > NUMBER_TO_INSERT, "MAX_NUMBER_IN_SET should be greater than NUMBER_TO_INSERT");
+		static_assert(MAX_NUMBER_IN_SET > NUMBER_TO_INSERT_LATER, "MAX_NUMBER_IN_SET should be greater than NUMBER_TO_INSERT");
 
 		for (int i = 0; i < MAX_NUMBER_IN_SET; i++)
 		{
-			if (i == NUMBER_TO_INSERT)
+			if (i == NUMBER_TO_INSERT_LATER)
 			{
 				continue;
 			}
@@ -36,7 +36,7 @@ namespace samples
 
 		auto start = chrono::high_resolution_clock::now();
 
-		orderedSet.insert(NUMBER_TO_INSERT);
+		orderedSet.insert(NUMBER_TO_INSERT_LATER);
 
 		auto end = chrono::high_resolution_clock::now();
 
@@ -46,7 +46,7 @@ namespace samples
 
 		start = chrono::high_resolution_clock::now();
 
-		unorderedSet.insert(NUMBER_TO_INSERT);
+		unorderedSet.insert(NUMBER_TO_INSERT_LATER);
 
 		end = chrono::high_resolution_clock::now();
 
