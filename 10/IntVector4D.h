@@ -8,6 +8,6 @@ namespace samples
 		int X;
 		int Y;
 		int Z;
-		int T;
+		int W;
 	};
 }
