@@ -32,7 +32,8 @@ namespace samples
 		
 		unique_ptr<char> char2(move(char1));
 
-		cout << "Char1: " << *char1 << endl;
+		// Run-time error
+		//cout << "Char1: " << *char1 << endl;
 		cout << "Char2: " << *char2 << endl;
 
 		const unique_ptr<float> float1 = make_unique<float>(2.0f);
