@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp">
+      <Filter>1. Signly Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="SinglyLinkedListExample.cpp">
+      <Filter>1. Signly Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheExample.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCache.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Signly Linked List">
+      <UniqueIdentifier>{dde56afb-4807-4016-afc7-66d6525f1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. SimpleCache">
+      <UniqueIdentifier>{59fa42cb-639e-4f30-9a94-0404a5cf34dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>1. Signly Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedListExample.h">
+      <Filter>1. Signly Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheExample.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCache.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
