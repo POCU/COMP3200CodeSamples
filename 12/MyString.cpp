@@ -36,7 +36,7 @@ namespace samples
 		delete[] mString;
 	}
 
-	MyString & MyString::operator=(MyString&& other)
+	MyString& MyString::operator=(MyString&& other)
 	{
 		cout << "Calling move assignment" << endl;
 
