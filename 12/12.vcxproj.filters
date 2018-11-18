@@ -17,6 +17,12 @@
     <ClCompile Include="MyVector.cpp">
       <Filter>2. SimpleCache</Filter>
     </ClCompile>
+    <ClCompile Include="MoveConstructorAssignmentExample.cpp">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="1. Signly Linked List">
@@ -24,6 +30,9 @@
     </Filter>
     <Filter Include="2. SimpleCache">
       <UniqueIdentifier>{59fa42cb-639e-4f30-9a94-0404a5cf34dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Move constructor and assignment">
+      <UniqueIdentifier>{56e208d8-0e5d-4977-b056-63009c313f65}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +50,12 @@
     </ClInclude>
     <ClInclude Include="MyVector.h">
       <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveConstructorAssignmentExample.h">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>3. Move constructor and assignment</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
