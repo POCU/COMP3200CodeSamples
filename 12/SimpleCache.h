@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <memory>
-#include "MyVector.h"
+#include "MyVector2D.h"
 
 using namespace std;
 
@@ -16,10 +16,10 @@ namespace samples
 		SimpleCache() = default;
 		~SimpleCache() = default;
 
-		void Add(string key, weak_ptr<MyVector> ptr);
-		shared_ptr<MyVector> Get(string key);
+		void Add(string key, weak_ptr<MyVector2D> ptr);
+		shared_ptr<MyVector2D> Get(string key);
 
 	private:
-		map<string, weak_ptr<MyVector>> mMap;
+		map<string, weak_ptr<MyVector2D>> mMap;
 	};
 }

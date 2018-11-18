@@ -24,7 +24,11 @@ namespace samples
 	{
 		cout << "Calling move constructor" << endl;
 
-		*this = move(other);
+		mString = other.mString;
+		mSize = other.mSize;
+
+		other.mString = nullptr;
+		other.mSize = 0;
 	}
 
 	MyString::~MyString()

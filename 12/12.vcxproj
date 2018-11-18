@@ -119,7 +119,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MoveConstructorAssignmentExample.cpp" />
     <ClCompile Include="MyString.cpp" />
-    <ClCompile Include="MyVector.cpp" />
+    <ClCompile Include="MyVector2D.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="SimpleCache.cpp" />
     <ClCompile Include="SinglyLinkedListExample.cpp" />
@@ -128,7 +128,7 @@
     <ClInclude Include="CacheExample.h" />
     <ClInclude Include="MoveConstructorAssignmentExample.h" />
     <ClInclude Include="MyString.h" />
-    <ClInclude Include="MyVector.h" />
+    <ClInclude Include="MyVector2D.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="SimpleCache.h" />
     <ClInclude Include="SinglyLinkedListExample.h" />

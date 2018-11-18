@@ -14,14 +14,14 @@
     <ClCompile Include="SimpleCache.cpp">
       <Filter>2. SimpleCache</Filter>
     </ClCompile>
-    <ClCompile Include="MyVector.cpp">
-      <Filter>2. SimpleCache</Filter>
-    </ClCompile>
     <ClCompile Include="MoveConstructorAssignmentExample.cpp">
       <Filter>3. Move constructor and assignment</Filter>
     </ClCompile>
     <ClCompile Include="MyString.cpp">
       <Filter>3. Move constructor and assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector2D.cpp">
+      <Filter>2. SimpleCache</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,14 +48,14 @@
     <ClInclude Include="SimpleCache.h">
       <Filter>2. SimpleCache</Filter>
     </ClInclude>
-    <ClInclude Include="MyVector.h">
-      <Filter>2. SimpleCache</Filter>
-    </ClInclude>
     <ClInclude Include="MoveConstructorAssignmentExample.h">
       <Filter>3. Move constructor and assignment</Filter>
     </ClInclude>
     <ClInclude Include="MyString.h">
       <Filter>3. Move constructor and assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector2D.h">
+      <Filter>2. SimpleCache</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
