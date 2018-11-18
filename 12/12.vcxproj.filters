@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Node.cpp">
+      <Filter>1. Signly Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="SinglyLinkedListExample.cpp">
+      <Filter>1. Signly Linked List</Filter>
+    </ClCompile>
+    <ClCompile Include="CacheExample.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleCache.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveConstructorAssignmentExample.cpp">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVector2D.cpp">
+      <Filter>2. SimpleCache</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="1. Signly Linked List">
+      <UniqueIdentifier>{dde56afb-4807-4016-afc7-66d6525f1fa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. SimpleCache">
+      <UniqueIdentifier>{59fa42cb-639e-4f30-9a94-0404a5cf34dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Move constructor and assignment">
+      <UniqueIdentifier>{56e208d8-0e5d-4977-b056-63009c313f65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>1. Signly Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedListExample.h">
+      <Filter>1. Signly Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="CacheExample.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleCache.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveConstructorAssignmentExample.h">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>3. Move constructor and assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector2D.h">
+      <Filter>2. SimpleCache</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
