@@ -4,6 +4,9 @@
     <Filter Include="1. Simple HashMap">
       <UniqueIdentifier>{901ca759-cb50-4607-b9a0-ff26b95f77ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2. Lambda Expressions">
+      <UniqueIdentifier>{dd2303c3-a6d4-40c8-8631-4fd290e8f84b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -15,6 +18,9 @@
     </ClCompile>
     <ClCompile Include="SimpleHashMapExample.cpp">
       <Filter>1. Simple HashMap</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaExpressionsExample.cpp">
+      <Filter>2. Lambda Expressions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,6 +35,9 @@
     </ClInclude>
     <ClInclude Include="SimpleHashMapExample.h">
       <Filter>1. Simple HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaExpressionsExample.h">
+      <Filter>2. Lambda Expressions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
