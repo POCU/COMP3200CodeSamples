@@ -17,7 +17,7 @@ namespace samples
 		void SetNext(shared_ptr<Node> const next);
 		shared_ptr<Node> GetNext() const;
 		int GetData() const;
-		string GetKey() const;
+		const string& GetKey() const;
 
 	private:
 		string mKey;

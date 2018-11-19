@@ -23,7 +23,7 @@ namespace samples
 		return mData;
 	}
 
-	string Node::GetKey() const
+	const string& Node::GetKey() const
 	{
 		return mKey;
 	}
