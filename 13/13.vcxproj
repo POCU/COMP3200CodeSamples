@@ -115,18 +115,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="Foo.cpp" />
     <ClCompile Include="LambdaExpressionsExample.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="SimpleHashMapExample.cpp" />
     <ClCompile Include="SimpleHashMap.cpp" />
+    <ClCompile Include="VariadicTemplateFunctionExample.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="Foo.h" />
     <ClInclude Include="LambdaExpressionsExample.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="SimpleData.h" />
     <ClInclude Include="SimpleHashMapExample.h" />
     <ClInclude Include="SimpleHashMap.h" />
+    <ClInclude Include="VariadicTemplateFunctionExample.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

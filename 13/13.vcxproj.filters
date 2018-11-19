@@ -7,6 +7,9 @@
     <Filter Include="2. Lambda Expressions">
       <UniqueIdentifier>{dd2303c3-a6d4-40c8-8631-4fd290e8f84b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="3. Variadic template function">
+      <UniqueIdentifier>{c5bac0ac-fade-4aaf-8ded-9bcecba8e05a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -21,6 +24,15 @@
     </ClCompile>
     <ClCompile Include="LambdaExpressionsExample.cpp">
       <Filter>2. Lambda Expressions</Filter>
+    </ClCompile>
+    <ClCompile Include="VariadicTemplateFunctionExample.cpp">
+      <Filter>3. Variadic template function</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>3. Variadic template function</Filter>
+    </ClCompile>
+    <ClCompile Include="Foo.cpp">
+      <Filter>3. Variadic template function</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +50,15 @@
     </ClInclude>
     <ClInclude Include="LambdaExpressionsExample.h">
       <Filter>2. Lambda Expressions</Filter>
+    </ClInclude>
+    <ClInclude Include="VariadicTemplateFunctionExample.h">
+      <Filter>3. Variadic template function</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>3. Variadic template function</Filter>
+    </ClInclude>
+    <ClInclude Include="Foo.h">
+      <Filter>3. Variadic template function</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
