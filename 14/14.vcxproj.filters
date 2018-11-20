@@ -7,7 +7,7 @@
     <Filter Include="2. Multi-threading">
       <UniqueIdentifier>{73783dae-c1a8-4d9d-8ebc-cf9a5d0068c6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="3. Condition variables">
+    <Filter Include="3. Auto-resetting Timer">
       <UniqueIdentifier>{5a475a21-eade-41c9-9ab8-5a3b36b08984}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -19,6 +19,9 @@
     <ClCompile Include="MultiThreadingExample.cpp">
       <Filter>2. Multi-threading</Filter>
     </ClCompile>
+    <ClCompile Include="AutoResetTimerExample.cpp">
+      <Filter>3. Auto-resetting Timer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileSystemExample.h">
@@ -26,6 +29,9 @@
     </ClInclude>
     <ClInclude Include="MultiThreadingExample.h">
       <Filter>2. Multi-threading</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoResetTimerExample.h">
+      <Filter>3. Auto-resetting Timer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

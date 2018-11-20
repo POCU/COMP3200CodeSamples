@@ -116,10 +116,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AutoResetTimerExample.h" />
     <ClInclude Include="FileSystemExample.h" />
     <ClInclude Include="MultiThreadingExample.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AutoResetTimerExample.cpp" />
     <ClCompile Include="FileSystemExample.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MultiThreadingExample.cpp" />
