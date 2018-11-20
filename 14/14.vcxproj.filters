@@ -16,10 +16,16 @@
       <Filter>1. File System</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MultiThreadingExample.cpp">
+      <Filter>2. Multi-threading</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileSystemExample.h">
       <Filter>1. File System</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadingExample.h">
+      <Filter>2. Multi-threading</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
