@@ -4,5 +4,22 @@
     <Filter Include="1. File System">
       <UniqueIdentifier>{9d3e4228-0bc3-415c-8967-a72a521e88bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="2. Multi-threading">
+      <UniqueIdentifier>{73783dae-c1a8-4d9d-8ebc-cf9a5d0068c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Condition variables">
+      <UniqueIdentifier>{5a475a21-eade-41c9-9ab8-5a3b36b08984}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileSystemExample.cpp">
+      <Filter>1. File System</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileSystemExample.h">
+      <Filter>1. File System</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
