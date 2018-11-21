@@ -7,9 +7,9 @@ using namespace std;
 namespace samples
 {
 	static mutex sMutex;
-	static condition_variable mEvent;
+	static condition_variable sEvent;
 	static int seconds;
-	const int MAX_SECONDS = 10;
+	constexpr int MAX_SECONDS = 10;
 
 	void Timer()
 	{
@@ -31,7 +31,7 @@ namespace samples
 				unique_lock<mutex> lock(sMutex);
 				seconds++;
 
-				mEvent.notify_one();
+				sEvent.notify_one();
 			}
 		}
 	}
@@ -42,13 +42,9 @@ namespace samples
 		{
 			{
 				unique_lock<mutex> lock(sMutex);
-				mEvent.wait(lock, [] { return seconds >= MAX_SECONDS; });
+				sEvent.wait(lock, [] { return seconds >= MAX_SECONDS; });
 
 				seconds = 0;
-			}
-
-			{
-				scoped_lock<mutex> lock(sMutex);
 				cout << "Reset: " << seconds << endl;
 			}
 		}
