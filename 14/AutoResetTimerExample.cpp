@@ -1,5 +1,7 @@
 #include <mutex>
+#include <chrono>
 #include <iostream>
+#include <thread>
 #include "AutoResetTimerExample.h"
 
 using namespace std;
@@ -20,12 +22,7 @@ namespace samples
 				cout << seconds << endl;
 			}
 
-			chrono::seconds delay = chrono::seconds(1);
-			auto end = chrono::high_resolution_clock::now() + delay;
-			while (chrono::high_resolution_clock::now() < end)
-			{
-				this_thread::yield();
-			}
+			this_thread::sleep_for(chrono::seconds(1));
 
 			{
 				unique_lock<mutex> lock(sMutex);
