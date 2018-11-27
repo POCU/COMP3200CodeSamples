@@ -21,11 +21,10 @@ namespace samples
 	}
 
 	MyString::MyString(MyString&& other)
+		: mString(other.mString)
+		, mSize(other.mSize)
 	{
 		cout << "Calling move constructor" << endl;
-
-		mString = other.mString;
-		mSize = other.mSize;
 
 		other.mString = nullptr;
 		other.mSize = 0;
