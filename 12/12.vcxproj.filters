@@ -3,10 +3,10 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Node.cpp">
-      <Filter>1. Signly Linked List</Filter>
+      <Filter>1. Singly Linked List</Filter>
     </ClCompile>
     <ClCompile Include="SinglyLinkedListExample.cpp">
-      <Filter>1. Signly Linked List</Filter>
+      <Filter>1. Singly Linked List</Filter>
     </ClCompile>
     <ClCompile Include="CacheExample.cpp">
       <Filter>2. SimpleCache</Filter>
@@ -25,22 +25,22 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="1. Signly Linked List">
-      <UniqueIdentifier>{dde56afb-4807-4016-afc7-66d6525f1fa6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="2. SimpleCache">
       <UniqueIdentifier>{59fa42cb-639e-4f30-9a94-0404a5cf34dd}</UniqueIdentifier>
     </Filter>
     <Filter Include="3. Move constructor and assignment">
       <UniqueIdentifier>{56e208d8-0e5d-4977-b056-63009c313f65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1. Singly Linked List">
+      <UniqueIdentifier>{dde56afb-4807-4016-afc7-66d6525f1fa6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
-      <Filter>1. Signly Linked List</Filter>
+      <Filter>1. Singly Linked List</Filter>
     </ClInclude>
     <ClInclude Include="SinglyLinkedListExample.h">
-      <Filter>1. Signly Linked List</Filter>
+      <Filter>1. Singly Linked List</Filter>
     </ClInclude>
     <ClInclude Include="CacheExample.h">
       <Filter>2. SimpleCache</Filter>
