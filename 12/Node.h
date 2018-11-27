@@ -13,7 +13,7 @@ namespace samples
 		Node(int data);
 		~Node() = default;
 
-		void SetNext(shared_ptr<Node> const next);
+		void SetNext(const shared_ptr<Node> next);
 		shared_ptr<Node> GetNext() const;
 		int GetData() const;
 

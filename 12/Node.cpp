@@ -7,7 +7,7 @@ namespace samples
 	{
 	}
 
-	void Node::SetNext(shared_ptr<Node> const next)
+	void Node::SetNext(const shared_ptr<Node> next)
 	{
 		mNext = next;
 	}
