@@ -6,11 +6,10 @@
 
 namespace samples
 {
-	void SimpleHashMap::Add(const char* key, int value)
+	void SimpleHashMap::Add(const char* key, unsigned long hash, int value)
 	{
 		shared_ptr<Node> newNode = make_shared<Node>(key, value);
 
-		int hash = SimpleHashMap::hashFunction(key, strlen(key));
 		int index = hash % MAX_SIZE;
 
 		if (mArray[index] == nullptr)
@@ -42,9 +41,8 @@ namespace samples
 		current->SetNext(newNode);
 	}
 
-	int SimpleHashMap::Get(const char* key) const
+	int SimpleHashMap::Get(const char* key, unsigned long hash) const
 	{
-		int hash = SimpleHashMap::hashFunction(key, strlen(key));
 		int index = hash % MAX_SIZE;
 
 		if (mArray[index] == nullptr)
@@ -82,31 +80,5 @@ namespace samples
 				}
 			}
 		}
-	}
-
-	/*constexpr int SimpleHashMap::hashFunctionWithCompileError(const char* s)
-	{
-		int length = strlen(s);
-
-		int sum = 0;
-
-		for (int i = 0; i < length; i++)
-		{
-			sum += s[i];
-		}
-
-		return sum;
-	}*/
-
-	constexpr int SimpleHashMap::hashFunction(const char* s, size_t length)
-	{
-		int sum = 0;
-
-		for (int i = 0; i < length; i++)
-		{
-			sum += s[i];
-		}
-
-		return sum;
 	}
 }
