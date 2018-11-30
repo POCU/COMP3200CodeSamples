@@ -37,13 +37,11 @@ namespace samples
 	{
 		while (true)
 		{
-			{
-				unique_lock<mutex> lock(sMutex);
-				sEvent.wait(lock, [] { return seconds >= MAX_SECONDS; });
+			unique_lock<mutex> lock(sMutex);
+			sEvent.wait(lock, [] { return seconds >= MAX_SECONDS; });
 
-				seconds = 0;
-				cout << "Reset: " << seconds << endl;
-			}
+			seconds = 0;
+			cout << "Reset: " << seconds << endl;
 		}
 	}
 
