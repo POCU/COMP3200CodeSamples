@@ -18,26 +18,26 @@ namespace samples
 		return sum;
 	}
 
-	/*constexpr unsigned long HashFunctionWithCompileError(const char* s)
-	{
-		size_t length = strlen(s);
+	//constexpr unsigned long HashFunctionWithCompileError(const char* s)
+	//{
+	//	size_t length = strlen(s);
 
-		int sum = 0;
+	//	int sum = 0;
 
-		for (int i = 0; i < length; i++)
-		{
-			sum += s[i];
-		}
+	//	for (int i = 0; i < length; i++)
+	//	{
+	//		sum += s[i];
+	//	}
 
-		return sum;
-	}*/
+	//	return sum;
+	//}
 
 	void SimpleHashMapExample()
 	{
 		SimpleHashMap map;
 
-		//constexpr unsigned long doesNotWork = HashFunctionWithCompileError("test1");
 		constexpr unsigned long test1 = HashFunction("test1");
+		//constexpr unsigned long doesNotWork = HashFunctionWithCompileError("test1");
 
 		map.Add("test1", test1, 1);
 		map.Add("test2", HashFunction("test2"), 2);
