@@ -23,13 +23,13 @@ namespace samples
 		}
 		
 		template <typename T>
-		static T Multiply(T value1, T value2)
+		static T Min(T value1, T value2)
 		{
 			return value1 < value2 ? value1 : value2;
 		}
 		
 		template <typename T>
-		static T Min(T value1, T value2)
+		static T Multiply(T value1, T value2)
 		{
 			return value1 * value2;
 		}
