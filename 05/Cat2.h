@@ -5,13 +5,13 @@ namespace samples
 	class Cat2
 	{
 	public:
-		Cat2::Cat2(int age, char* name);
+		Cat2(int age, const char* name);
 		virtual ~Cat2();
 
-		static char* GetType();
+		static const char* GetType();
 
 	private:
-		static char* mAnimalType;
+		static const char* mAnimalType;
 
 		int mAge;
 		char* mName;

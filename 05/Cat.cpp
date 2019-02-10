@@ -4,7 +4,7 @@
 
 namespace samples
 {
-	Cat::Cat(int age, char* name)
+	Cat::Cat(int age, const char* name)
 		: Animal(age)
 	{
 		mName = new char[strlen(name) + 1];
