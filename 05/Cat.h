@@ -7,7 +7,7 @@ namespace samples
 	class Cat : public Animal
 	{
 	public:
-		Cat(int age, char* name);
+		Cat(int age, const char* name);
 		virtual ~Cat();
 
 		const char* GetName() const;

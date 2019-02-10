@@ -7,7 +7,7 @@ namespace samples
 	public:
 		Tiger(int age);
 
-		void Tiger::PretendIAmAZebra() const;
+		void PretendIAmAZebra() const;
 
 	private:
 		int mAge;

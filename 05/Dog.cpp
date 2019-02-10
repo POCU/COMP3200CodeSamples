@@ -4,7 +4,7 @@
 
 namespace samples
 {
-	Dog::Dog(int age, char* address)
+	Dog::Dog(int age, const char* address)
 		: Animal(age)
 	{
 		mHomeAddress = new char[strlen(address) + 1];

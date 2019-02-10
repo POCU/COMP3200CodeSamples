@@ -3,11 +3,10 @@
 
 namespace samples
 {
-	char* Cat2::mAnimalType = "Cat";
+	const char* Cat2::mAnimalType = "Cat";
 
-	Cat2::Cat2(int age, char* name)
+	Cat2::Cat2(int age, const char* name)
 		: mAge(age)
-		, mName(name)
 	{
 		mName = new char[strlen(name) + 1];
 		memcpy(mName, name, strlen(name) + 1);
@@ -19,7 +18,7 @@ namespace samples
 	}
 
 	// static function
-	char* Cat2::GetType()
+	const char* Cat2::GetType()
 	{
 		return mAnimalType;
 	}
