@@ -141,7 +141,6 @@
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Cat2.cpp" />
     <ClCompile Include="Dog.cpp" />
-    <ClCompile Include="InlineFunctionExample.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Math.cpp" />
     <ClCompile Include="ObjectAddressSavingExample.cpp" />
@@ -150,15 +149,12 @@
     <ClCompile Include="StaticMemberVariableExample.cpp" />
     <ClCompile Include="Tiger.cpp" />
     <ClCompile Include="ValueCastingExample.cpp" />
-    <ClCompile Include="Vector.cpp" />
-    <ClCompile Include="Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Cat2.h" />
     <ClInclude Include="Dog.h" />
-    <ClInclude Include="InlineFunctionExample.h" />
     <ClInclude Include="Math.h" />
     <ClInclude Include="ObjectAddressSavingExample.h" />
     <ClInclude Include="ObjectPointerCastingExample.h" />
@@ -166,8 +162,6 @@
     <ClInclude Include="StaticMemberVariableExample.h" />
     <ClInclude Include="Tiger.h" />
     <ClInclude Include="ValueCastingExample.h" />
-    <ClInclude Include="Vector.h" />
-    <ClInclude Include="Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
