@@ -1,3 +1,4 @@
+#include "InlineFunctionExample.h"
 #include "ObjectAddressSavingExample.h"
 #include "ObjectPointerCastingExample.h"
 #include "StaticMemberFunctionExample.h"
@@ -16,10 +17,13 @@ int main(){
 	// 3. Saving Address of an Cat class
 	ObjectAddressSavingExample();
 
-	// 4. Static member variable
+	// 4. Inline Function
+	InlineFunctionExample();
+
+	// 5. Static member variable
 	StaticMemberVariableExample();
 
-	// 5. Static member function
+	// 6. Static member function
 	StaticMemberFunctionExample();
 
 	return 0;
