@@ -31,9 +31,6 @@
     <ClCompile Include="ObjectAddressSavingExample.cpp">
       <Filter>3. Saving Address of a Tiger object</Filter>
     </ClCompile>
-    <ClCompile Include="InlineFunctionExample.cpp">
-      <Filter>4. Inline function</Filter>
-    </ClCompile>
     <ClCompile Include="StaticMemberVariableExample.cpp">
       <Filter>5. Static member variable</Filter>
     </ClCompile>
@@ -74,9 +71,6 @@
     </ClInclude>
     <ClInclude Include="ObjectAddressSavingExample.h">
       <Filter>3. Saving Address of a Tiger object</Filter>
-    </ClInclude>
-    <ClInclude Include="InlineFunctionExample.h">
-      <Filter>4. Inline function</Filter>
     </ClInclude>
     <ClInclude Include="StaticMemberVariableExample.h">
       <Filter>5. Static member variable</Filter>
