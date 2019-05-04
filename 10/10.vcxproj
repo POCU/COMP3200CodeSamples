@@ -22,9 +22,8 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F6B6DA1E-BCF4-442C-BD9D-AB0CCFCF54A8}</ProjectGuid>
     <RootNamespace>My10</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
-  <Import Project="..\PlatformToolset.props" />
+  <Import Project="..\PlatformSettings.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
