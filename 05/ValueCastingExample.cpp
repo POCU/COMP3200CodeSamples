@@ -21,5 +21,7 @@ namespace samples
 		cout << "int: " << intNumber
 			<< ", float: " << *(int*)(&floatNumber)
 			<< endl;
+
+		cout << dec;
 	}
 }
