@@ -1,3 +1,5 @@
+#include <iostream>
+
 #include "ObjectAddressSavingExample.h"
 #include "ObjectPointerCastingExample.h"
 #include "StaticMemberFunctionExample.h"
@@ -9,6 +11,8 @@ using namespace samples;
 int main(){
 	// 1. Static_Cast with values
 	ValueCastingExample();
+
+	std::cout << std::dec;
 
 	// 2. Static_Cast with pointers
 	ObjectPointerCastingExample();
