@@ -32,6 +32,3 @@ namespace samples
 		int mY;
 	};
 }
-
-
-

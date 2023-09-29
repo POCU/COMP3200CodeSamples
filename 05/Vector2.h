@@ -101,6 +101,3 @@ namespace samples
 		return out;
 	}
 }
-
-
-

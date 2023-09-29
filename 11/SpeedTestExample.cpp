@@ -55,6 +55,6 @@ namespace samples
 		cout << "Inserting into unorderedSet: " << elapsedNanoSeconds.count() << " ns" << endl;
 
 		// Uncomment this when you run it with Release configuration
-		// system("pause"); 
+		// system("pause");
 	}
 }
