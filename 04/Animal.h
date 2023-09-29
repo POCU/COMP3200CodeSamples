@@ -4,10 +4,10 @@ namespace samples
 {
 	class Animal
 	{
-	public :
+	public:
 		Animal(int age);
 		virtual ~Animal();
-		
+
 		virtual void Move() const;
 		virtual void Speak() const;
 

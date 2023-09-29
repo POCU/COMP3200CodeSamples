@@ -3,7 +3,7 @@
 
 namespace samples
 {
-	Cat::Cat(int age) 
+	Cat::Cat(int age)
 		: Animal(age)
 	{
 	}

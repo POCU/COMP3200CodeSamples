@@ -23,5 +23,3 @@ namespace samples
 		shared_ptr<Node> mArray[MAX_SIZE];
 	};
 }
-
-

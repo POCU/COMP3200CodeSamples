@@ -10,4 +10,3 @@ namespace samples
 		~Bar() = default;
 	};
 }
-

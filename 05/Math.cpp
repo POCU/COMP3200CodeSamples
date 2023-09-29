@@ -11,7 +11,7 @@ namespace samples
 			return intValue;
 		}
 		
-		return intValue + 1;	
+		return intValue + 1;
 	}
 
 	int Math::Floor(float value)

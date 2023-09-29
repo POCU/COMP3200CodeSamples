@@ -26,6 +26,6 @@ namespace samples
 			node = node->GetNext();
 		}
 
-		cout << "Use count for lastNode: " << lastNode.use_count() << endl; 
+		cout << "Use count for lastNode: " << lastNode.use_count() << endl;
 	}
 }

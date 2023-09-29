@@ -16,5 +16,4 @@ namespace samples
 		int mX;
 		int mY;
 	};
-
 }
