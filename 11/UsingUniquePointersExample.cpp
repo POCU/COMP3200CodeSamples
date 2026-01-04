@@ -12,15 +12,15 @@ namespace samples
 		unique_ptr<int> num1 = make_unique<int>(10);
 		unique_ptr<char> char1 = make_unique<char>('d');
 
-		cout << *num1 << endl;
-		cout << *char1 << endl;
+		cout << *num1 << endl << *char1 << endl;
 
 		unique_ptr<MyVector> myVector = make_unique<MyVector>(3, 5);
 
 		cout << "X: " << myVector->GetX() << ", Y: " << myVector->GetY() << endl;
 
 		// Compiler error
-		// unique_ptr<MyVector> copyOfMyVector1 = myVector;
+		// unique_ptr<MyVector> copyOfMyVector1;
+		// copyOfMyVector1 = myVector;
 		// unique_ptr<MyVector> copyOfMyVector2(myVector);
 
 		myVector.reset(new MyVector(1, 5));
