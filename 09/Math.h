@@ -23,15 +23,15 @@ namespace samples
 		}
 		
 		template <typename T>
-		inline T Min(T value1, T value2)
-		{
-			return value1 < value2 ? value1 : value2;
-		}
-		
-		template <typename T>
 		inline T Multiply(T value1, T value2)
 		{
 			return value1 * value2;
+		}
+		
+		template <typename T>
+		inline T Min(T value1, T value2)
+		{
+			return value1 < value2 ? value1 : value2;
 		}
 	}
 }
